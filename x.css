@@ -2788,3 +2788,17 @@ body>section:nth-child(n+54) .category-grid>div .category-featured:hover {
     transform: unset;
     filter: none;
 }
+
+body>section:nth-child(n+54) .category-grid>div .category-featured a img,body>section:nth-of-type(n+43) .category-grid>div .category-featured img.cat-featured-img {
+    display: unset
+}
+
+@media only screen and (max-width: 850px) {
+    body>section:nth-child(n+54) .category-grid>div {
+        width: 48%!important;
+    }
+
+    body>section:nth-child(n+54) .category-grid>div .category-featured,body>section:nth-child(n+54) .category-grid,body > section:nth-child(n+54) .category-grid,body>section:nth-of-type(n+54) .category-grid>div .category-featured {
+        margin: 0px 0px 170px;
+    }
+}
