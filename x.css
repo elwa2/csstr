@@ -2789,7 +2789,7 @@ body>section:nth-child(n+54) .category-grid>div .category-featured:hover {
     filter: none;
 }
 
-body>section:nth-child(n+54) .category-grid>div .category-featured a img,body>section:nth-of-type(n+43) .category-grid>div .category-featured img.cat-featured-img {
+body>section:nth-child(n+54) .category-grid>div .category-featured a img,body>section:nth-of-type(n+54) .category-grid>div .category-featured img.cat-featured-img {
     display: unset
 }
 
