@@ -2793,6 +2793,9 @@ body>section:nth-child(n+54) .category-grid>div .category-featured a img,body>se
     display: unset
 }
 
+body>section:nth-child(n+54) .category-grid>div .category-featured a img,body>section:nth-of-type(n+54) .category-grid>div .category-featured img.cat-featured-img {
+    display: unset
+}
 @media only screen and (max-width: 850px) {
     body>section:nth-child(n+54) .category-grid>div {
         width: 48%!important;
