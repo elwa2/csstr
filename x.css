@@ -1771,56 +1771,58 @@ i.sicon-tag {
 .sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li>a:hover:before,.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li.has-children:hover>a:before {
     filter: brightness(0.81)!important
 }
-
-.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(1)>a:before,.main-menu>li:nth-last-child(14)>a:before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(n)>a:before,.main-menu>li:nth-last-child(n)>a:before {
+    content: "\e95f"!important
+}
+.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(1)>a:before,.main-menu>li:nth-last-child(17)>a:before {
     content: "\e95f"!important
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(2)>a:before,.main-menu>li:nth-last-child(13)>a:before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(2)>a:before,.main-menu>li:nth-last-child(16)>a:before {
     content: "\eb04"!important
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(3)>a:before,.main-menu>li:nth-last-child(12)>a:before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(3)>a:before,.main-menu>li:nth-last-child(15)>a:before {
     content: "\e96a"!important
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(4)>a:before,.main-menu>li:nth-last-child(11)>a:before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(4)>a:before,.main-menu>li:nth-last-child(14)>a:before {
     content: "\ec52"!important
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(5)>a:before,.main-menu>li:nth-last-child(10)>a:before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(5)>a:before,.main-menu>li:nth-last-child(13)>a:before {
     content: "\f079"!important
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(6)>a:before,.main-menu>li:nth-last-child(9)>a:before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(6)>a:before,.main-menu>li:nth-last-child(12)>a:before {
     content: "\ec54"!important
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(7)>a:before,.main-menu>li:nth-last-child(8)>a:before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(7)>a:before,.main-menu>li:nth-last-child(11)>a:before {
     content: "\eb20"!important
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(8)>a:before,.main-menu>li:nth-last-child(7)>a:before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(8)>a:before,.main-menu>li:nth-last-child(10)>a:before {
     content: "\eb34"!important
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(9)>a:before,.main-menu>li:nth-last-child(6)>a:before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(9)>a:before,.main-menu>li:nth-last-child(9)>a:before {
     content: "\ebd5"!important
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(10)>a:before,.main-menu>li:nth-last-child(5)>a:before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(10)>a:before,.main-menu>li:nth-last-child(8)>a:before {
     content: "\eafd"!important
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(11)>a:before,.main-menu>li:nth-last-child(4)>a:before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(11)>a:before,.main-menu>li:nth-last-child(7)>a:before {
     content: "\e904"!important
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(12)>a:before,.main-menu>li:nth-last-child(3)>a:before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(12)>a:before,.main-menu>li:nth-last-child(6)>a:before {
     content: "\f04c"!important
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(13)>a:before,.main-menu>li:nth-last-child(2)>a:before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(13)>a:before,.main-menu>li:nth-last-child(5)>a:before {
     content: "\ed70"!important
 }
 
