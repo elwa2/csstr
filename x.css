@@ -1822,7 +1822,19 @@ i.sicon-tag {
     content: "\f04c"!important
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(13)>a:before,.main-menu>li:nth-last-child(5)>a:before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(14)>a:before,.main-menu>li:nth-last-child(5)>a:before {
+    content: "\ed70"!important
+}
+.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(15)>a:before,.main-menu>li:nth-last-child(4)>a:before {
+    content: "\ed40"!important
+}
+.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(16)>a:before,.main-menu>li:nth-last-child(3)>a:before {
+    content: "\ed76"!important
+}
+.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(17)>a:before,.main-menu>li:nth-last-child(2)>a:before {
+    content: "\ed12"!important
+}
+.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li:nth-child(18)>a:before,.main-menu>li:nth-last-child(1)>a:before {
     content: "\ed70"!important
 }
 
