@@ -1081,3 +1081,24 @@ salla-rating-stars .s-rating-stars-btn-star.s-rating-stars-selected svg {
     margin-left: 10px;
     position: relative;
 }
+
+div#s-edit-alert {
+    display: none;
+}
+
+.title,.breadcrumb a,a {
+    color: #f29bab;
+}
+
+.nav-desktop ul .menu-item>a, .nav-desktop ul .menu-item:not(.mega-menu) .sub-menu ul li a {
+    padding: 10px 12px;
+    color: var(--color-text);
+    position: relative;
+    font-size: var(--font-sm);
+    text-decoration: none;
+    white-space: normal;
+    white-space: initial;
+    display: block;
+    transition: all .5s cubic-bezier(.2,1,.3,1);
+    cursor: pointer;
+}
