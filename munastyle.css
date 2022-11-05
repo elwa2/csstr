@@ -36,7 +36,7 @@ body, *:not(i) {
 
 /* ================== Header =================== */
 /* Header BG */
-header .site-header,.top-header,body .product-block .btn--add-to-cart:hover {
+header .site-header,.top-header,body .product-block .btn--add-to-cart:hover,.header-block--nav-wrapper {
     box-shadow: none;
     background: linear-gradient(to left, #f2ced8, #f29bab) !important;
 }
@@ -130,27 +130,9 @@ a#main-cart-btn, a.mobile-search-trigger.header-side-panel-trigger.d-md-none.ml-
 }
 
 /* ================== Navigation =================== */
-.header-block--nav-wrapper {
-    background-color: #000 !important;
-}
-
-.nav-desktop.nav-desktop--horizontal > ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.nav-desktop.nav-desktop--horizontal > ul > li > a, .nav-desktop.nav-desktop--horizontal .sub-menu ul > li > a {
-    transition: all 0.4s ease-in-out;
-    font-size: 1.2rem;
-    border-radius: 0px;
-    color: #fff !important;
-    background-color: #222127 !important;
-}
-
 .nav-desktop.nav-desktop--horizontal > ul > li > a:hover, .nav-desktop.nav-desktop--horizontal > ul > li.active > a, .nav-desktop.nav-desktop--horizontal .sub-menu ul > li > a:hover, .nav-desktop.nav-desktop--horizontal .sub-menu ul > li.active > a {
-    color: #f29bab !important;
-    background-color: #222127 !important;
+    color: #fedfe4 !important;
+    background-color: #f29bab !important;
 }
 
 /* ================== Navigation Mobile =================== */
@@ -519,14 +501,14 @@ body .product-block .product-block__info {
     border-radius: 2px !important;
     font-weight: bold;
     color: #fff;
-    background-color: var(--color-primary);
+    background-color: #f29bab;
 }
 
 .page--cart .btn--oval:hover {
     opacity: 1 !important;
     border-radius: 2px !important;
-    color: #fff;
-    background-color: var(--color-primary);
+    color: #ffffff;
+    background-color: #facbd3;
 }
 
 .page--cart .btn--oval i {
@@ -601,7 +583,7 @@ body .product-block .product-block__info {
 /* ================== Footer =================== */
 /* -------------------- Footer Top   ------------------ */
 .footer {
-    background-color: #f2ced8;
+    background-color: #f2e4e8;
     border-top: 0px solid #f2ced8;
 }
 
@@ -825,7 +807,7 @@ body > section.hero.header-block.header-block--nav-wrapper > div > nav > ul {
     justify-content: center !important;
 }
 
-.home-block--bg,body > section.hero.header-block.header-block--nav-wrapper > div > nav > ul,.footer__bottom,.header-block--nav-wrapper,html, body,.nav-mobile .main-nav,.side-panel__content,body, .home-block.home-block--bg.home-block--slide-products.home-block--products-slider.show-all, .home-block, .bg-grey {
+.home-block--bg, .footer__bottom, .header-block--nav-wrapper, html, body, .nav-mobile .main-nav, .side-panel__content, body, .home-block.home-block--bg.home-block--slide-products.home-block--products-slider.show-all, .home-block, .bg-grey {
     background-color: #f2e4e8 !important;
 }
 
@@ -960,7 +942,7 @@ img[src="https://cdn.salla.sa/gnrnd/oQImncSSOGoH6uwipApOW4oLOfTzArbFTHW5NLJL.png
 }
 
 .footer__top {
-    /* background: #f2e4e8; */
+    background: #f2e4e8;
     padding: 55px 25px;
     margin-top: -50px;
     color: white!important;
@@ -1048,12 +1030,12 @@ html, body {
 }
 
 .bg-white {
-    background: #222127;
+    background: #f2e4e8;
 }
 
 .list--table li:hover {
     background: #fcfcfc;
-    background: #1b191d;
+    background: #f4eff0;
 }
 
 div.product-block.product-block--inline {
@@ -1061,7 +1043,7 @@ div.product-block.product-block--inline {
 }
 
 label.font-sm.text-wrap.required,.list--table li .summary>*>*,.product-block--inline .product-block__info>*,.list--table__head>*>*,.price-wrapper--large>span,.product-sections-wrapper .product-section label {
-    color: #fff;
+    color: #f29bab;
 }
 
 input.s-quantity-input-input {
@@ -1083,4 +1065,19 @@ salla-rating-stars .s-rating-stars-btn-star.s-rating-stars-selected svg {
 
 .title--primary {
     color: #f29bab!important;
+}
+
+.cart-progress .step__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #f5f7f9;
+    background-color: #f29bab;
+    color: #ffffff;
+    margin-left: 10px;
+    position: relative;
 }
