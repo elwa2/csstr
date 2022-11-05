@@ -317,10 +317,10 @@ section.home-block--square-images > .container > .row:not(.products-grid):not(.p
 /* ================== Section =================== */
 /* الأقسام العنوان && عنون كل قسم */
 /* section header && Category Title */
-.title.title--primary.title--x-large.title--has-dash.mb-30, .page--category .category-title .title.title--primary.title--has-dash.mb-30 {
-    font-size: 1.8rem;
+.title.title--primary.title--x-large.title--has-dash.mb-30, .page--category .category-title .title.title--primary.title--has-dash.mb-30,.tabs-heads .tab-head .btn--transparent.active, .tabs-heads .tab-head a--transparent.active, .title.title--primary.title--x-large.title--has-dash.mb-30, .page--category .category-title .title.title--primary.title--has-dash.mb-30 {
     color: #f29bab !important;
     font-weight: bold !important;
+    font-size: 1.4rem;
 }
 
 .home-block--products-slider {
@@ -787,10 +787,6 @@ html[lang="en"] .home-block.home-block--store-features .row:before {
         max-height: 220px !important;
     }
 
-    .title.title--primary.title--x-large.title--has-dash.mb-30, .page--category .category-title .title.title--primary.title--has-dash.mb-30 {
-        font-size: 1.4rem;
-    }
-
     .footer * {
         text-align: center;
     }
@@ -1084,6 +1080,7 @@ salla-rating-stars .s-rating-stars-btn-star.s-rating-stars-selected svg {
     fill: #f29bab;
     opacity: 1;
 }
+
 .title--primary {
     color: #f29bab!important;
 }
