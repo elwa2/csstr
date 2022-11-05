@@ -111,7 +111,7 @@ a#main-cart-btn, a.mobile-search-trigger.header-side-panel-trigger.d-md-none.ml-
 .s-modal-header-inner .s-login-modal-header-icon {
     border: none !important;
     border-radius: 0;
-    background: url("https://cdn.salla.sa/gnrnd/H7DbfdtCSzpNxYsXO9L1pqYNv6jaP5kq8f079ln8.png");
+    background: url("https://cdn.salla.sa/gnrnd/DVevp9mBZWR1x6T7Pf21jJiVywwsiZcdbIEx4Rc9.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -960,7 +960,7 @@ header .site-header__wrapper .theme-logo img {
 }
 
 img[src="https://cdn.salla.sa/gnrnd/oQImncSSOGoH6uwipApOW4oLOfTzArbFTHW5NLJL.png"] {
-    content: url(https://cdn.salla.sa/gnrnd/H7DbfdtCSzpNxYsXO9L1pqYNv6jaP5kq8f079ln8.png);
+    content: url(https://cdn.salla.sa/gnrnd/DVevp9mBZWR1x6T7Pf21jJiVywwsiZcdbIEx4Rc9.png);
 }
 
 .footer__top {
@@ -993,7 +993,7 @@ body.index:before {
     content: '';
     width: 100%;
     height: 100%;
-    background: #1b191d url(https://cdn.salla.sa/gnrnd/H7DbfdtCSzpNxYsXO9L1pqYNv6jaP5kq8f079ln8.png);
+    background: #f2e4e8 url(https://cdn.salla.sa/gnrnd/DVevp9mBZWR1x6T7Pf21jJiVywwsiZcdbIEx4Rc9.png);
     position: fixed;
     z-index: 99999999999999999 !important;
     transform: scale(0);
@@ -1083,4 +1083,7 @@ input.s-quantity-input-input {
 salla-rating-stars .s-rating-stars-btn-star.s-rating-stars-selected svg {
     fill: #f29bab;
     opacity: 1;
+}
+.title--primary {
+    color: #f29bab!important;
 }
