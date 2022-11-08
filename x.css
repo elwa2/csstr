@@ -2560,6 +2560,7 @@ body > section:nth-of-type(n+35) .category-grid > div {
 
 .site-header.sticky {
     backdrop-filter: blur(3px);
+    z-index: 10000000000000000000000000000;
     background: rgba(255, 255, 255, 0.1) !important;
 }
 
