@@ -441,7 +441,7 @@ p.font-13 {
 }
 
 p.font-13::before {
-    content: " الحقوق محفوظة لمتجر" " " " متجر كيناز";
+    content: "  " " " " الحقوق محفوظة متجر كيناز © 2022";
     display: block;
     visibility: visible;
 }
