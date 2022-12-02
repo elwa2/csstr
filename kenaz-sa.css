@@ -433,6 +433,10 @@ footer .footer-main .store-certificate {
     .footer-item:last-child {
         margin: -19px 0 0 0;
     }
+
+    p.font-13::before {
+        margin: 1px 1px -53px 1px;
+    }
 }
 
 p.font-13 {
