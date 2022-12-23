@@ -1,0 +1,205 @@
+ p.font-13::before {
+    content: "  " " " " الحقوق محفوظة متجر كيناز © 2022";
+    display: block;
+    visibility: visible;
+}
+}
+
+section.py-5.text-center {
+    border-top: 1px solid #e8b176;
+}
+
+.feature-item__icon {
+    color: #354950;
+}
+
+.feature-item {
+    color: #354950;
+}
+
+.footer-title {
+    color: #fff;
+    background: #354950;
+    border-radius: 88px;
+}
+
+.store-contact a {
+    color: #354950;
+}
+
+.footer-links a {
+    color: #354950;
+}
+
+.footer-main {
+    padding: 2rem 0;
+    color: #354950;
+}
+
+.site-header {
+    background: #fffff;
+}
+
+.circle-action {
+    border: 1px solid #33484e;
+    border-radius: 20%;
+    background: #e8b176;
+    color: #354950;
+}
+
+.site-header__cart .badge {
+    background: #e8b176;
+    color: #354950;
+}
+
+.section-header .section--title {
+    color: #354950;
+}
+
+.section-actions a {
+    border-color: var(--color-main);
+    color: #354950;
+}
+
+.section-header:before {
+    background-color: #e8b176;
+}
+
+.product-add {
+    color: #354950;
+    background: var(--color-main);
+}
+
+.product-add, .product-price {
+    color: #e8b176;
+}
+
+body.salla-theme_1 .section-header .btn.btn-primary.btn-rounded, body.salla-theme_2 .section-header .btn.btn-primary.btn-rounded, body.salla-theme_4 .section-header .btn.btn-primary.btn-rounded {
+    background-color: #e8b176;
+    border-color: var(--main-text-color)!important;
+    color: #354950;
+}
+
+.footer-main {
+    background-color: #e8b176;
+}
+
+.feature-item__icon {
+    background: #e8b176;
+}
+
+.product-add {
+    background: #354950;
+}
+
+body.salla-theme_1 .product .product-footer {
+    border-top: 1px solid #354950;
+}
+
+body.salla-theme_1 .product .product-footer {
+    background: #354950;
+}
+
+.product.cover {
+    border: 1px solid #354950;
+}
+
+.store-notify {
+    background: #e8b176 !important;
+}
+
+.sub-nav__menu svg {
+    fill: #e8b176;
+}
+
+.sub-nav__menu svg {
+    background: #e8b176;
+    fill: #354950;
+    border-radius: 20%;
+}
+
+.header-row:first-child {
+    align-items: flex-start;
+}
+
+.sub-nav-header {
+    background: #e8b176;
+}
+
+.product-add:after {
+    color: #354950;
+    content: ".";
+    margin-left: 7px;
+    float: right;
+    text-align: left;
+}
+
+.product-add {
+    border-right: 1px solid #e8b176;
+    font-size: 10px !important;
+    padding-top: 12px !important;
+    text-align: left;
+    font-weight: unset;
+}
+
+.product-add {
+    border-top-right-radius: 0px;
+}
+
+.feature-item__icon {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 50px;
+    line-height: 75px;
+    margin-bottom: 1rem;
+}
+
+.store-contact a {
+    color: #f6f6f6;
+}
+
+.col-sm-4 {
+    width: calc(100%/4);
+    float: right;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+section.section {
+    padding: 0;
+}
+
+.footer-main .container:before {
+    text-align: center;
+    height: 110px;
+    width: 140px;
+    margin: auto auto -17px;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    filter: brightness(25.5);
+}
+
+.footer-main:before {
+    background-image: none;
+    background-size: 518%;
+    background-repeat: round;
+    transform: rotate(288deg);
+    margin: -174px -3px -22px 1px;
+    height: 102px;
+}
+
+.salla-theme_1 footer .footer-sub .footer-wrapper p {
+    margin-bottom: 39px;
+}
+
+.product-add {
+    border-right: 1px solid #e8b176;
+    font-size: 20px !important;
+    padding-top: 10px !important;
+    text-align: left;
+    font-weight: unset;
+}
