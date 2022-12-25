@@ -1383,12 +1383,7 @@ a.login-link {
     display: block;
 }
 
-.fs-payment::after {
-    content: "تصميم " " " "3lwaaa@gmail.com";
-    color: rgb(153, 153, 153);
-    font-size: 10px;
-    display: block;
-}
+ 
 
 .salla-theme_6 footer .footer-sub .fs-cont .fs-payment img {
     width: auto;
