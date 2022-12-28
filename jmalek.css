@@ -1,0 +1,1691 @@
+/* develope By Package +201002241591  3lwaaa@gmail.com - https://wa.me/201002241591 */
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap'); @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css"); .sicon-cart:before {
+    content: "\f179";
+    font-family: "Noto Kufi Arabic","bootstrap-icons"!important;
+}
+
+/* :root {
+    main21-color: var(--main-color);
+    main22-color: var(--main-text-color2);
+    main23-color: #232323;
+    main24-color: #fafafa;
+    main25-color: var(--main-text-color2);
+} */
+body,html,h1,h2,h3,h4,h5,h6,span,button,div,p {
+    font-family: 'Almarai',sans-serif,sallaicons,icomoon!important
+}
+
+body,section.section {
+    background-image: url(https://cdn.salla.sa/Yxlom/Nvpq4ukC7Wiw925brB3VBTSKAalBNlLIMBGBtiUk.png)!important;
+    background-size: 72%!important
+}
+
+section.section {
+    background-color: #fff!important
+}
+
+.product {
+    background: #fff
+}
+
+body:not(.salla-theme_6) .main-menu li:not(.sub-menu-header) a {
+    font-size: 12px;
+    margin: 0 -14px 0 0;
+}
+
+.product-title {
+    color: var(--main-color)!important
+}
+
+.product-price,.product-details__price,.product-price {
+    color: var(--main-text-color2)!important
+}
+
+.product-price,.product-details__price,.product-price:hover {
+    color: #40321e!important;
+    justify-content: center;
+}
+
+.sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories>li a {
+    border: var(--main-text-color2)solid 1px!important
+}
+
+.footer-header {
+    background: #fff!important
+}
+
+.footer-main {
+    background-color: var(--main-color)!important;
+}
+
+@media(max-width: 767px) {
+    .footer-main {
+        background-color: var(--main-color)!important;
+    }
+}
+
+footer .store-certificate img {
+    max-width: 54px;
+    max-height: 38px;
+    margin-left: 4px
+}
+
+.salla-theme_4 .footer-header .footer-payment .icons {
+    padding: 6px 12px 0 20px;
+    border-radius: 17px
+}
+
+.footer-sub {
+    background: linear-gradient(90deg,var(--main-color),var(--main-text-color2))!important;
+    font-size: 18px
+}
+
+.sub-nav .main-menu li.sub-menu-header.categories-holder>span {
+    border-top: 0 solid var(--main-text-color2)!important
+}
+
+@media(max-width: 991px) {
+    .sub-nav .sub-nav-content .main-menu>li {
+        border-bottom:0 solid var(--main-text-color2)!important
+    }
+}
+
+section {
+    background: #fff!important
+}
+
+.u-white .container {
+    background-color: #fff!important
+}
+
+.section-products .container {
+    background: #ffffff7a!important;
+    border: 1px solid #fff!important
+}
+
+.feature-item__icon h3,.feature-item__icon i {
+    color: var(--main-color) !important;
+}
+
+body.salla-theme_4 .section-header .btn.btn-primary.btn-rounded {
+    height: 36px;
+    line-height: 23px;
+    border-radius: 7px 7px 7px 7px!important
+}
+
+.salla-theme_6 .site-header .header-top .sub-nav__menu {
+    height: 30px
+}
+
+.row.header-wrapper {
+    padding: 7px 0
+}
+
+.salla-theme_4 .feature-item__content p {
+    padding: .5rem
+}
+
+.feature-item:not(:last-child) {
+    margin-bottom: 1rem
+}
+
+.footer-payment {
+    text-align: center
+}
+
+.not-available {
+    color: #f00;
+    animation: flash 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite
+}
+
+.sub-nav .sub-nav-content.is-active {
+    border-radius: 1rem 0 0 1rem
+}
+
+.circle-action {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    line-height: 34px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background: 0;
+    color: #fff;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out
+}
+
+.sub-nav__close svg {
+    width: 35px;
+    height: 35px;
+    fill: var(--main-text-color2)
+}
+
+#sort #sort-toggle {
+    border-radius: 7px;
+    transition: all .35s cubic-bezier(0.2,1,0.3,1)
+}
+
+.product {
+    border: #d9d0c4 solid 5.5px;
+    border-radius: 10px!important
+}
+
+.feature-item:last-child>.feature-item__icon>i.sicon-calendar-check:before {
+    content: "\E961"!important
+}
+
+.section--title.mb-4:before {
+    content: "";
+    visibility: visible;
+    display: block
+}
+
+.circle-action.next,.circle-action.prev {
+    color: #fff;
+    border-color: #fff
+}
+
+.salla-theme_4 .feature-item__content .feature-item__icon i[class^="sicon-"] {
+    font-size: 30px;
+    margin: 0
+}
+
+.feature-item__icon::before {
+    display: none!important
+}
+
+.feature-item h3,.feature-item p {
+    margin-top: 0!important;
+    visibility: visible!important;
+    color: #8a8a8a!important;
+    margin-bottom: 0!important
+}
+
+.pt-5,.py-5 {
+    padding-top: 0!important
+}
+
+.pb-5,.py-5 {
+    padding-bottom: 2rem!important
+}
+
+.feature-item h3 {
+    padding-bottom: 5px!important
+}
+
+.mb-4,.my-4 {
+    margin-bottom: .5rem!important
+}
+
+.pb-5,.py-5 {
+    padding-bottom: 5px!important
+}
+
+.product {
+    border: var(--main-color)solid 2.5px;
+    border-radius: 16px!important
+}
+
+footer .footer-sub .footer-wrapper img,footer .footer-sub .fs-cont img {
+    width: unset!important;
+    max-width: unset!important;
+    height: 25px;
+    background: var(--main-color)!important;
+    padding: 2px 7px!important;
+    border-radius: 0
+}
+
+.sub-nav-header a {
+    color: var(--main-text-color2)!important;
+    background: var(--main-color)!important;
+    border: #d9d0c4 solid 2px!important;
+    border-radius: 8px 8px 8px 8px!important;
+    box-shadow: 2.5px 2.5px 5px #00000029,-2.5px -2.5px 5px #ffffff14;
+    padding-top: 3px;
+    padding-bottom: 8px
+}
+
+.sub-nav .main-menu li.sub-menu-header.categories-holder>span {
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    padding: 5px 15px!important
+}
+
+.sub-nav-header a:hover {
+    color: #fff!important;
+    background: var(--main-text-color2) !important;
+    border: #fff solid 2px!important
+}
+
+.salla-theme_6 .site-header .header-top .sub-nav__menu {
+    right: 10px;
+    position: absolute
+}
+
+.site-header .header-wrapper .sub-nav__menu svg {
+    fill: var(--main-color)!important;
+    filter: brightness(84.5);
+}
+
+.circle-action:hover {
+    background: #fff;
+    color: #d9d0c4;
+    border-radius: 8px 8px 8px 8px!important
+}
+
+.salla-theme_6 .site-header__mine-cart .badge {
+    background-color: #d9d0c4
+}
+
+.badge {
+    color: var(--main-color);
+    border-radius: 6px 6px 6px 6px!important
+}
+
+.site-header__cart .badge {
+    border: 2px solid #fff
+}
+
+.slick-active button {
+    background-color: var(--main-text-color2)!important
+}
+
+.slick-dots li button {
+    width: 20px;
+    height: 4px;
+    padding: 0;
+    border-radius: 2px;
+    background-color: #d9d0c4
+}
+
+.site-header,.main-slider img,body.salla-theme_4 .section-header .section--title span,body > section.u-white.py-4 > div > div:before,.a2a_kit.a2a_kit_size_32.a2a_default_style {
+    background: linear-gradient(to left,var(--main-color),var(--main-text-color2))!important
+}
+
+.salla-theme_1 footer .footer-sub .footer-wrapper {
+    flex-direction: column;
+    text-align: left
+}
+
+.footer-main * {
+    text-align: center!important
+}
+
+.footer-sub {
+    font-size: 18px
+}
+
+.salla-theme_6 .site-header .header-top .logo-wrapper {
+    align-items: center
+}
+
+.salla-theme_6 .site-header .header-top .logo-wrapper {
+    width: calc(60% - 0);
+    align-content: center!important;
+    text-align: center!important;
+    justify-content: right!important
+}
+
+#search {
+    position: relative;
+    display: none
+}
+
+.login-link {
+    display: none;
+    right: auto;
+    padding: 0;
+    margin-left: 7px;
+    max-height: auto;
+    font-size: 16px
+}
+
+.salla-theme_4 .site-header .logo-wrapper .logo img {
+    width: auto;
+    height: auto;
+    max-width: 190px;
+    max-height: 65px;
+    display: none;
+}
+
+@media(min-width: 992px) {
+    .salla-theme_4 .site-header .logo-wrapper .logo img {
+        width:auto;
+        height: auto;
+        max-width: 198px;
+        max-height: 66px;
+        margin: -15px 0 -15px 0;
+        background: #fff;
+        border-radius: 6px;
+    }
+}
+
+.bg-brand {
+    background: #f2f2f2!important
+}
+
+.footer-main {
+    border-radius: 1rem 1rem 0 0!important
+}
+
+.footer-main a,.footer-main p,.footer-sub p:before,a.sub-nav__menu.ml-2::after {
+    color: #ffffff;
+    font-size: 11.5pt;
+    /* filter: brightness(133.5); */
+}
+
+.footer-title span,.social__item a,.store-contact a {
+    color: #fff!important
+}
+
+.social__item a {
+    border-color: #d9d0c4!important
+}
+
+.section--title {
+    position: relative;
+    color: var(--main-color);
+    font-size: 18px;
+    margin-right: -10px
+}
+
+.testimonials-item cite {
+    color: #545454
+}
+
+body {
+    color: #545454
+}
+
+.testimonials-item p:before {
+    border-top-color: #fff
+}
+
+.testimonials-item img {
+    border-radius: 50%!important
+}
+
+.category-featured::before,.feature-item::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    background: rgba(255,255,255,0.2);
+    border-radius: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    opacity: 0
+}
+
+.category-featured:hover::before,.feature-item:hover::before {
+    -webkit-animation: circle .75s;
+    animation: circle .75s
+}
+
+.product {
+    border: #e6e6e6 solid 1px
+}
+
+.product .product-footer {
+    display: block!important
+}
+
+.product .product-footer .sicon-cart:before {
+    content: "اضافة للسلة ";
+    font-family: 'Almarai',sans-serif,sallaicons,icomoon!important;
+    font-weight: 100;
+    font-size: 16px;
+    vertical-align: inherit;
+    color: #d9d0c4;
+    margin-top: 12px!important;
+    display: block;
+    border-radius: 10px!important
+}
+
+.product .product-footer .product-add {
+    display: block;
+    border: 1px solid var(--main-text-color2)!important;
+    background: var(--main-color);
+    padding-bottom: 8px;
+    padding-top: 0;
+    margin: auto;
+    margin-bottom: 10px;
+    font-weight: 700;
+    border-radius: 1px 0 32px 32px!important;
+    text-align: center;
+    color: #fff!important;
+    border: transparent solid 1px;
+    height: 57px!important;
+    width: 100%
+}
+
+.add_to_cart_btn {
+    color: #fff!important
+}
+
+.product .product-footer .product-add:hover {
+    background: linear-gradient(to left,var(--main-color),var(--main-text-color2))!important
+}
+
+.sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories>li,.sub-nav .main-menu li.sub-menu-header.categories-holder>span,.sub-nav .sub-nav-content,.sub-nav-header {
+    background: transparent!important
+}
+
+.sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories>li {
+    border: none!important
+}
+
+.sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories>li a {
+    color: #fff!important;
+    margin: 5px;
+    border: #d9d0c4 solid 1px;
+    border-radius: 10px 10px 10px 10px!important
+}
+
+.sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories>li>ul>li a {
+    color: #171717!important;
+    background: 0 0!important
+}
+
+.sub-nav-header img {
+    display: none!important;
+    padding-bottom: 2px!important;
+    padding-top: 2px!important
+}
+
+.sub-nav-header::before {
+    content: "";
+    text-align: center!important;
+    display: block;
+    height: 70px!important;
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    background-position: top center!important
+}
+
+.salla-theme_4 .category-featured {
+    margin-bottom: 10px!important
+}
+
+.product .product-footer .product-add {
+    order: 2!important
+}
+
+body.salla-theme_4 .product .product-footer {
+    display: flex!important;
+    flex-direction: column!important
+}
+
+.lightener h2 {
+    display: none!important
+}
+
+.mb-4,.my-4 {
+    margin-bottom: .5rem!important
+}
+
+.sub-nav-header::before {
+    content: "";
+    text-align: center!important;
+    display: block;
+    height: 137px!important;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 481.21 765.21'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23fff; %7D .cls-2 %7B fill: %23efc69c; %7D .cls-3 %7B fill: %23dbae7d; %7D .cls-4 %7B fill: %23f4d6bb; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M409.14,38.23H38.8c0,3.99,0,7.78,0,11.56-.03,50.95-.05,101.9-.08,152.85,0,6.14-1.22,7.39-7.21,7.41-8.15,.03-16.3-.08-24.45,.04-4.57,.07-6.69-1.82-6.69-6.51C.27,152.31-.06,101.04,.09,49.76,.13,35.96,.35,22.16,0,8.36-.15,2.17,1.87,.2,7.85,.2,147.88,.12,287.9,.02,427.93,0c14.81,0,29.61,.5,44.42,.65,4.59,.05,6.73,2.16,6.61,6.69-.1,3.72,.34,7.16-2.96,10.45-44.74,44.5-89.28,89.19-133.89,133.82-62.74,62.76-125.5,125.5-188.25,188.25-36.97,36.97-73.93,73.95-110.94,110.87-2.11,2.1-3.29,4.12-3.29,7.31,.1,87.25,.08,174.5,.08,261.74v4.21H440.39c1.04-1.58,.57-3.29,.57-4.9,.03-37.63,.02-75.26,.02-112.89,0-53.43,0-106.86,0-160.29,0-6.79,1.3-8.06,8.19-8.07,7.32,0,14.64-.01,21.97,0,6.87,.01,8.16,1.28,8.16,8.07,0,76.76,0,153.52,0,230.28,0,26.47,.06,52.95,.07,79.42,0,7.28-1.52,8.68-8.65,8.83-42.95,.91-85.91,.37-128.86,.43-106.24,.16-212.47,.23-318.71,.25-4.95,0-9.98,.47-14.89-.7-6.32-1.51-7.32-2.75-7.3-9.12,.13-38.62,.35-77.23,.4-115.85,.07-62.25,.05-124.51-.05-186.76,0-4.3,1.22-7.47,4.29-10.53,54.23-54.09,108.36-108.27,162.52-162.42,67.93-67.93,135.87-135.86,203.79-203.8,11.18-11.18,22.31-22.42,33.46-33.64,1.14-1.15,2.21-2.38,3.76-4.05Z'/%3E%3Cpath class='cls-2' d='M299.43,476.59c7.14-2.75,14.65-3.81,22.16-4.93,4.07-.61,5.65,.86,4.87,4.79-.94,4.71-2.12,9.42-4.49,13.59-4.28,7.5-7.55,15.4-10.56,23.45-3.23,.69-1.66,3.24-1.96,5.06,0,0,.03,0,.03,0-1.72-.11-2.36,1.15-2.75,2.41-3.13,10.31-11.53,17.33-16.72,26.47-6.13,10.8-11.97,21.27-15.44,33.32-3.17,11.01-1.52,21.98-1.58,32.9-.03,6.14-.36,12.19-1.44,18.09-.67,3.62-2.32,7.55-6.05,9.71,.02-3.65-.4-7.29,.35-10.93,1.16-5.59,1.29-11.42,.24-16.86-2.37-12.28,.41-23.93,4.18-35.12,6.08-18.04,16.98-33.58,28.22-48.81,3.45-4.67,6.75-9.6,7.76-15.56-1.45-.46-2.02,.18-2.68,.68-13.06,9.85-22.14,23.13-31.52,36.2-12.66,17.62-18.77,38.13-26.26,58.05-.32,.85-.17,1.98,.04,2.91,1.52,6.52-.25,12.71-1.52,19.03-.99,4.9-3.4,10.22,1.83,14.65,2.31,1.96,1.55,4.77,.67,7.46-4.01,.19-7.79,.78-11.53-.39-10.16-3.17-16.64-10.46-21.8-19.31-9.9-16.99-6.66-35.6-6.39-53.74,.11-7.07,3.74-13.65,6.39-20.26,2.2-5.51,4.94-10.25,9.6-14.51,4.69-4.29,7.4-10.79,10.82-16.41,5.24-8.63,13.34-14.64,20.06-21.9,8.78-9.48,20.4-15.07,31.28-21.69,4.7-2.86,10.64-3.6,14.2-8.34Zm-62.99,75.86c-.08-1.38,.38-2.51,1.12-3.71,5.63-9.15,11.65-18.05,18.51-26.3,6.34-7.63,12.85-15.1,20.24-21.84,3.37-3.07,7.63-5.71,9.84-9.99-.45-.46-.67-.87-.89-.88-4.92-.1-15.58,7.39-16.82,11.95-.39,1.44-.93,2.52-2.42,2.79-10.01,1.77-14.48,10.74-19.53,17.36-8.73,11.43-17.59,23.07-23.55,36.53-2.58,5.84-5.36,11.65-7.18,17.7-2.01,6.69-4.31,13.49-2.51,20.91,.78,3.21,1.97,4.03,4.56,3.85,3-11.84,5.35-23.56,9.75-34.64,1.43-3.59,2.34-8.1,6.85-9.76,1.51,4.02,2.78,.65,3.57-.31,3.04-3.7,5.5-7.93,8.81-11.35,12.89-13.33,24.93-27.5,38.86-39.82,.85-.75,2.14-1.18,1.01-3.27-2.16,.78-4.31,1.69-6.18,3.32-9.36,8.15-18.11,16.88-26.07,26.42-5.91,7.09-11.98,14.04-17.97,21.05Z'/%3E%3Cpath class='cls-4' d='M299.43,476.59c-3.56,4.74-9.51,5.49-14.2,8.34-10.88,6.62-22.5,12.21-31.28,21.69-6.72,7.26-14.81,13.27-20.06,21.9-3.42,5.63-6.13,12.13-10.82,16.41-4.66,4.26-7.4,9-9.6,14.51-2.64,6.61-6.28,13.19-6.39,20.26-.27,18.14-3.52,36.75,6.39,53.74,5.16,8.85,11.64,16.13,21.8,19.31,3.75,1.17,7.53,.58,11.53,.39,.88-2.69,1.64-5.5-.67-7.46-5.23-4.43-2.81-9.75-1.83-14.65,1.27-6.33,3.04-12.51,1.52-19.03-.22-.93-.36-2.06-.04-2.91,7.49-19.92,13.61-40.42,26.26-58.05,9.39-13.07,18.46-26.36,31.52-36.2,.66-.5,1.23-1.14,2.68-.68-1.01,5.96-4.31,10.89-7.76,15.56-11.24,15.24-22.14,30.77-28.22,48.81-3.77,11.19-6.56,22.84-4.18,35.12,1.05,5.44,.93,11.27-.24,16.86-.76,3.64-.34,7.29-.35,10.93,.15,1.8-.79,3.05-1.9,4.37-5.4,6.43-12.6,9.89-20.31,12.57-16.61,.69-28.21-7.31-35.88-21.36-8.22-15.04-10.03-31.19-8.11-48.15,3.19-28.11,16.15-51.64,33.49-73.08,14.33-17.72,33.87-27.79,54.85-35.42,3.88-1.41,7.66-3.16,11.8-3.77Z'/%3E%3Cpath class='cls-1' d='M452.94,378.88c-7.93-2.9-15.21-5.54-22.49-8.21-6.24-2.29-12.44-4.65-18.71-6.85-1.76-.62-2.89-1.3-2.84-3.42,.11-4.46,.03-8.93,.03-13.52,7.87-1.53,15.55-1.25,23.14-1.84,13.77-1.06,27.57-1.72,41.36-2.48,5.55-.31,7.15,1.24,7.12,6.85-.01,2.45,.47,4.97-.56,7.78-12.13,.64-24.34,1.28-36.56,1.92-.08,.4-.16,.81-.24,1.21,12.29,4.49,24.58,8.97,36.78,13.42q1.08,11.38-9.51,14.88c-8.59,2.85-17.18,5.73-25.62,9.7,11.76,.78,23.52,1.55,35.48,2.34,.1,1.53,.16,2.83,.26,4.12,.57,7.84-.5,10.97-10.37,10.04-20.19-1.89-40.46-2.9-61.28-4.32,0-4.84,.13-9.44-.05-14.03-.11-2.93,2.12-3.06,3.87-3.67,13.11-4.6,26.25-9.12,40.17-13.94Z'/%3E%3Cpath class='cls-1' d='M432.29,131.85c-6.95-5.67-13.91-11.32-20.84-17.01-2.19-1.79-3.91-11.86-2-13.77,2.14-2.14,4.65-3.43,7.76-.67,7.44,6.6,15.12,12.93,22.88,19.52,10.77-7.28,21.36-14.41,31.93-21.58,1.79-1.21,3.25-2.42,5.79-1.09,2.59,1.36,2.55,3.26,2.91,5.65,.9,5.93-1.53,9.35-6.59,12.32-7.71,4.53-14.93,9.89-22.42,14.94,.89,2.79,2.98,2.78,5.15,2.77,5.82-.04,11.64-.07,17.46,0,4.85,.07,6.31,1.99,6.29,7.94-.02,5.48-1.5,7.29-6.37,7.3-19.62,.05-39.24,.05-58.86,0-5.03-.01-6.45-1.84-6.43-7.75,.03-5.74,1.53-7.46,6.73-7.5,5.42-.05,10.85-.01,16.28-.01,.11-.35,.23-.71,.34-1.06Z'/%3E%3Cpath class='cls-1' d='M409.1,301.6c-1.73-5.86,1.23-8.01,6.49-9.7,18.96-6.09,37.75-12.71,56.61-19.1,5.83-1.98,7.92-.08,8.52,6.09,.55,5.64-1.18,8.81-6.87,9.57-.16,.02-.32,.09-.48,.14-13.81,4.61-13.75,4.61-13.25,19.25,.08,2.35,.66,3.55,3.08,4.2,4.32,1.15,8.53,2.72,12.79,4.12,4.26,1.4,6.53,6.83,4.41,11.98-1.65,4.01-4.93,3.87-8.74,2.55-18.5-6.43-37-12.87-55.66-18.8-5.65-1.79-8.79-4.08-6.91-10.31Zm37.51,5.28c.49-3.4,.58-6.24-.03-9.45-4.83,1.27-9.19,2.57-13.91,4.85,5.02,1.65,9.35,3.08,13.94,4.6Z'/%3E%3Cpath class='cls-1' d='M450.55,189.64h16.48c0-7.15-.03-14.1,.01-21.04,.03-5.17,1.74-6.81,6.87-6.78,4.87,.03,6.57,1.64,6.59,6.56,.05,10.15-.03,20.31,.03,30.46,.03,4.42-2.1,6.26-6.43,6.25-19.64-.06-39.28-.04-58.93-.01-4.35,0-6.37-2.09-6.35-6.4,.04-9.65-.04-19.31,.03-28.96,.03-4.65,2.09-6.52,6.8-6.54,4.81-.03,6.78,1.75,6.82,6.4,.07,6.61,.02,13.22,.02,20.06h14.48c0-6.02-.03-11.97,0-17.91,.04-5.3,1.64-6.9,6.76-6.9,5.12,0,6.75,1.6,6.79,6.87,.04,5.8,0,11.61,0,17.95Z'/%3E%3Cpath class='cls-3' d='M243.28,658.37c7.71-2.67,14.91-6.13,20.31-12.57,1.11-1.32,2.05-2.57,1.9-4.37,3.74-2.16,5.39-6.09,6.05-9.71,1.09-5.9,1.41-11.95,1.44-18.09,.06-10.92-1.59-21.88,1.58-32.9,3.47-12.05,9.3-22.52,15.44-33.32,5.19-9.14,13.59-16.16,16.72-26.47,.38-1.27,1.03-2.52,2.75-2.41-1.19,8.55-5.02,16.1-9.41,23.29-6.08,9.94-11.57,19.98-13.74,31.64-1.91,10.32-.44,20.47,.65,30.66,1.69,15.77,1.34,31.21-10.94,43.15-8.03,7.81-17.95,12.33-29.56,12.03-1.14-.03-2.36,.12-3.21-.94Z'/%3E%3Cpath class='cls-1' d='M467.03,243.81c0-7.42-.03-14.21,.01-21,.03-4.82,1.88-6.7,6.47-6.76,5-.07,6.97,1.76,7,6.75,.05,9.98-.03,19.97,.03,29.95,.03,4.39-2.03,6.3-6.38,6.29-19.64-.05-39.27,0-58.91-.05-5.15-.01-6.28-1.57-6.24-7.86,.03-5.39,1.61-7.29,6.39-7.3,16.96-.05,33.93-.02,51.62-.02Z'/%3E%3Cpath class='cls-3' d='M309.44,518.55c.3-1.82-1.27-4.37,1.96-5.06-.27,1.83-.56,3.66-1.96,5.06Z'/%3E%3Cpath class='cls-3' d='M234.42,556.41c-4.51,1.66-5.42,6.17-6.85,9.76-4.41,11.08-6.76,22.8-9.75,34.64-2.59,.18-3.78-.64-4.56-3.85-1.8-7.41,.5-14.22,2.51-20.91,1.82-6.05,4.59-11.86,7.18-17.7,5.96-13.46,14.82-25.1,23.55-36.53,5.06-6.63,9.53-15.59,19.53-17.36,1.49-.26,2.03-1.35,2.42-2.79,1.24-4.56,11.9-12.05,16.82-11.95,.22,0,.44,.42,.89,.88-2.21,4.28-6.48,6.92-9.84,9.99-7.39,6.75-13.9,14.22-20.24,21.84-6.86,8.25-12.88,17.14-18.51,26.3-.74,1.2-1.2,2.34-1.12,3.71-1.26,1.02-1.81,2.41-2.02,3.96Z'/%3E%3Cpath class='cls-4' d='M234.42,556.41c.21-1.56,.76-2.94,2.02-3.96,6-7.01,12.06-13.96,17.97-21.05,7.95-9.54,16.71-18.27,26.07-26.42,1.88-1.63,4.02-2.55,6.18-3.32,1.13,2.09-.16,2.52-1.01,3.27-13.92,12.32-25.97,26.48-38.86,39.82-3.31,3.42-5.77,7.64-8.81,11.35-.79,.97-2.06,4.33-3.57,.31Z'/%3E%3C/svg%3E");
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    background-position: top center!important;
+    margin: 4px 0 13px 0;
+    /* filter: invert(1) hue-rotate(178deg); */
+}
+
+.u-white .container {
+    background-color: #fff!important;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 0!important
+}
+
+.u-white .container {
+    padding-top: 0!important
+}
+
+.feature-item {
+    background: 0 0!important;
+    box-shadow: unset!important
+}
+
+.u-white .container {
+    background-color: #fff!important;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 0!important
+}
+
+.u-white .container {
+    padding-top: 0!important
+}
+
+.salla-theme_4 .feature-item__content p {
+    padding: .5rem;
+    padding-bottom: .5rem;
+    width: 100%!important;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    min-height: 60px;
+    border-radius: 0 5rem!important
+}
+
+.feature-item {
+    background: 0 0!important;
+    box-shadow: unset!important
+}
+
+.feature-item__content {
+    background: 0 0!important;
+    box-shadow: unset!important
+}
+
+.footer-main,.salla-theme_4 .feature-item__content .feature-item__icon,.salla-theme_4 .feature-item__content p,.site-header {
+    padding-right: 0rem!important
+}
+
+.sub-nav .sub-nav-content {
+    background: 0 0!important
+}
+
+.salla-theme_4 .feature-item__content .feature-item__icon {
+    color: #1f1f1f!important
+}
+
+.category-featured:hover::before,.feature-item:hover::before,.product:hover::before {
+    -webkit-animation: circle .75s;
+    animation: circle .75s
+}
+
+@keyframes mvt {
+    0% {
+        transform: scale(0.8)
+    }
+
+    40% {
+        transform: scale(1.1)
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes tournemoi {
+    0% {
+        transform: rotate(-2deg)
+    }
+
+    40% {
+        transform: rotate(2deg)
+    }
+
+    100% {
+        transform: rotate(0)
+    }
+}
+
+.product:hover {
+    animation: tournemoi ease 1s
+}
+
+.product,.product img {
+    border: #e6e6e6 solid 1px;
+    border-radius: 10px!important
+}
+
+section.section {
+    padding: .5rem 0!important
+}
+
+.footer-sub p {
+    max-height: 30px!important;
+    line-height: 30px!important;
+    overflow: hidden!important
+}
+
+.salla-theme_4 .footer-header .icons .store-certificate img {
+    max-width: 60px!important;
+    max-height: 40px!important
+}
+
+.footer-item:first-of-type .footer-title {
+    /* display: none */
+}
+
+.main-slider {
+    max-width: 100%!important;
+    margin: auto;
+    margin-bottom: auto
+}
+
+.sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories>li>ul>li a {
+    color: #fff!important;
+    background: 0 0!important
+}
+
+@media screen and (max-width: 777px) {
+    .footer-sub p {
+        max-height:30px!important;
+        line-height: 14px!important;
+        overflow: hidden!important;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    footer .store-certificate * {
+        font-size:13px;
+        color: #fff
+    }
+
+    footer .store-certificate b {
+        font-size: 13px;
+        color: #fff
+    }
+}
+
+a.circle-action.next.button-next,a.circle-action.prev.button-prev,a.circle-action.next.button-more {
+    border: 0 solid #fff
+}
+
+.circle-action.next,.circle-action.prev {
+    color: var(--main-color)!important;
+    background: #fff
+}
+
+.login-link {
+    display: unset!important
+}
+
+#search {
+    position: relative;
+    display: unset!important
+}
+
+.site-header {
+    padding-right: 0rem!important
+}
+
+.product .product-footer .sicon-cart::before {
+    content: " إضافة للسلة ";
+    font-family: 'Almarai',sans-serif,sallaicons,icomoon!important;
+    font-weight: 700;
+    font-size: 18px;
+    vertical-align: inherit;
+    color: #ffffff;
+    margin-top: 5px!important;
+    display: block;
+    margin: 11px 0 0 0!important;
+}
+
+@media(max-width: 767px) {
+    .product .product-footer .sicon-cart::before {
+        margin:20px 0 0 0!important
+    }
+}
+
+.sub-nav .main-menu li.sub-menu-header.categories-holder>span {
+    color: #fff!important
+}
+
+.sub-nav .sub-nav-content.is-active {
+    background: linear-gradient(to bottom,transparent 20%,var(--main-text-color2) 80%),url(https://cdn.salla.sa/mDQOo/V2jeJR99PdpbYBAm84hGwp6T8iF4aldcuUt2cDRH.png) no-repeat !important
+}
+
+.sub-nav-content.is-active .main-menu>li>a {
+    color: #fff!important
+}
+
+.sub-nav-content.is-active .main-menu>li>a>i {
+    color: #eab368!important
+}
+
+.sub-nav .main-menu>li>a {
+    color: #fff!important
+}
+
+p.mb-4.mb-md-0 {
+    color: #fff!important
+}
+
+.social__item a:hover {
+    background: #222228!important
+}
+
+section {
+    background: #fff!important
+}
+
+span.sicon-instagram {
+    color: #ff75c8!important;
+    font-size: 100%
+}
+
+span.sicon-snapchat {
+    color: var(--main-text-color2)!important;
+    font-size: 100%
+}
+
+span.sicon-facebook {
+    color: #8694fb!important;
+    font-size: 100%
+}
+
+.footer-main .container:before {
+    text-align: center;
+    content: "";
+    display: block;
+    height: 152px;
+    width: 216px;
+    margin: auto auto 20px;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 481.21 765.21'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23efc69c; %7D .cls-2 %7B fill: %23dbae7d; %7D .cls-3 %7B fill: %23f4d6bb; %7D .cls-4 %7B fill: %235a505b; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-4' d='M409.14,38.23H38.8c0,3.99,0,7.78,0,11.56-.03,50.95-.05,101.9-.08,152.85,0,6.14-1.22,7.39-7.21,7.41-8.15,.03-16.3-.08-24.45,.04-4.57,.07-6.69-1.82-6.69-6.51C.27,152.31-.06,101.04,.09,49.76,.13,35.96,.35,22.16,0,8.36-.15,2.17,1.87,.2,7.85,.2,147.88,.12,287.9,.02,427.93,0c14.81,0,29.61,.5,44.42,.65,4.59,.05,6.73,2.16,6.61,6.69-.1,3.72,.34,7.16-2.96,10.45-44.74,44.5-89.28,89.19-133.89,133.82-62.74,62.76-125.5,125.5-188.25,188.25-36.97,36.97-73.93,73.95-110.94,110.87-2.11,2.1-3.29,4.12-3.29,7.31,.1,87.25,.08,174.5,.08,261.74v4.21H440.39c1.04-1.58,.57-3.29,.57-4.9,.03-37.63,.02-75.26,.02-112.89,0-53.43,0-106.86,0-160.29,0-6.79,1.3-8.06,8.19-8.07,7.32,0,14.64-.01,21.97,0,6.87,.01,8.16,1.28,8.16,8.07,0,76.76,0,153.52,0,230.28,0,26.47,.06,52.95,.07,79.42,0,7.28-1.52,8.68-8.65,8.83-42.95,.91-85.91,.37-128.86,.43-106.24,.16-212.47,.23-318.71,.25-4.95,0-9.98,.47-14.89-.7-6.32-1.51-7.32-2.75-7.3-9.12,.13-38.62,.35-77.23,.4-115.85,.07-62.25,.05-124.51-.05-186.76,0-4.3,1.22-7.47,4.29-10.53,54.23-54.09,108.36-108.27,162.52-162.42,67.93-67.93,135.87-135.86,203.79-203.8,11.18-11.18,22.31-22.42,33.46-33.64,1.14-1.15,2.21-2.38,3.76-4.05Z'/%3E%3Cpath class='cls-1' d='M299.43,476.59c7.14-2.75,14.65-3.81,22.16-4.93,4.07-.61,5.65,.86,4.87,4.79-.94,4.71-2.12,9.42-4.49,13.59-4.28,7.5-7.55,15.4-10.56,23.45-3.23,.69-1.66,3.24-1.96,5.06,0,0,.03,0,.03,0-1.72-.11-2.36,1.15-2.75,2.41-3.13,10.31-11.53,17.33-16.72,26.47-6.13,10.8-11.97,21.27-15.44,33.32-3.17,11.01-1.52,21.98-1.58,32.9-.03,6.14-.36,12.19-1.44,18.09-.67,3.62-2.32,7.55-6.05,9.71,.02-3.65-.4-7.29,.35-10.93,1.16-5.59,1.29-11.42,.24-16.86-2.37-12.28,.41-23.93,4.18-35.12,6.08-18.04,16.98-33.58,28.22-48.81,3.45-4.67,6.75-9.6,7.76-15.56-1.45-.46-2.02,.18-2.68,.68-13.06,9.85-22.14,23.13-31.52,36.2-12.66,17.62-18.77,38.13-26.26,58.05-.32,.85-.17,1.98,.04,2.91,1.52,6.52-.25,12.71-1.52,19.03-.99,4.9-3.4,10.22,1.83,14.65,2.31,1.96,1.55,4.77,.67,7.46-4.01,.19-7.79,.78-11.53-.39-10.16-3.17-16.64-10.46-21.8-19.31-9.9-16.99-6.66-35.6-6.39-53.74,.11-7.07,3.74-13.65,6.39-20.26,2.2-5.51,4.94-10.25,9.6-14.51,4.69-4.29,7.4-10.79,10.82-16.41,5.24-8.63,13.34-14.64,20.06-21.9,8.78-9.48,20.4-15.07,31.28-21.69,4.7-2.86,10.64-3.6,14.2-8.34Zm-62.99,75.86c-.08-1.38,.38-2.51,1.12-3.71,5.63-9.15,11.65-18.05,18.51-26.3,6.34-7.63,12.85-15.1,20.24-21.84,3.37-3.07,7.63-5.71,9.84-9.99-.45-.46-.67-.87-.89-.88-4.92-.1-15.58,7.39-16.82,11.95-.39,1.44-.93,2.52-2.42,2.79-10.01,1.77-14.48,10.74-19.53,17.36-8.73,11.43-17.59,23.07-23.55,36.53-2.58,5.84-5.36,11.65-7.18,17.7-2.01,6.69-4.31,13.49-2.51,20.91,.78,3.21,1.97,4.03,4.56,3.85,3-11.84,5.35-23.56,9.75-34.64,1.43-3.59,2.34-8.1,6.85-9.76,1.51,4.02,2.78,.65,3.57-.31,3.04-3.7,5.5-7.93,8.81-11.35,12.89-13.33,24.93-27.5,38.86-39.82,.85-.75,2.14-1.18,1.01-3.27-2.16,.78-4.31,1.69-6.18,3.32-9.36,8.15-18.11,16.88-26.07,26.42-5.91,7.09-11.98,14.04-17.97,21.05Z'/%3E%3Cpath class='cls-3' d='M299.43,476.59c-3.56,4.74-9.51,5.49-14.2,8.34-10.88,6.62-22.5,12.21-31.28,21.69-6.72,7.26-14.81,13.27-20.06,21.9-3.42,5.63-6.13,12.13-10.82,16.41-4.66,4.26-7.4,9-9.6,14.51-2.64,6.61-6.28,13.19-6.39,20.26-.27,18.14-3.52,36.75,6.39,53.74,5.16,8.85,11.64,16.13,21.8,19.31,3.75,1.17,7.53,.58,11.53,.39,.88-2.69,1.64-5.5-.67-7.46-5.23-4.43-2.81-9.75-1.83-14.65,1.27-6.33,3.04-12.51,1.52-19.03-.22-.93-.36-2.06-.04-2.91,7.49-19.92,13.61-40.42,26.26-58.05,9.39-13.07,18.46-26.36,31.52-36.2,.66-.5,1.23-1.14,2.68-.68-1.01,5.96-4.31,10.89-7.76,15.56-11.24,15.24-22.14,30.77-28.22,48.81-3.77,11.19-6.56,22.84-4.18,35.12,1.05,5.44,.93,11.27-.24,16.86-.76,3.64-.34,7.29-.35,10.93,.15,1.8-.79,3.05-1.9,4.37-5.4,6.43-12.6,9.89-20.31,12.57-16.61,.69-28.21-7.31-35.88-21.36-8.22-15.04-10.03-31.19-8.11-48.15,3.19-28.11,16.15-51.64,33.49-73.08,14.33-17.72,33.87-27.79,54.85-35.42,3.88-1.41,7.66-3.16,11.8-3.77Z'/%3E%3Cpath class='cls-4' d='M452.94,378.88c-7.93-2.9-15.21-5.54-22.49-8.21-6.24-2.29-12.44-4.65-18.71-6.85-1.76-.62-2.89-1.3-2.84-3.42,.11-4.46,.03-8.93,.03-13.52,7.87-1.53,15.55-1.25,23.14-1.84,13.77-1.06,27.57-1.72,41.36-2.48,5.55-.31,7.15,1.24,7.12,6.85-.01,2.45,.47,4.97-.56,7.78-12.13,.64-24.34,1.28-36.56,1.92-.08,.4-.16,.81-.24,1.21,12.29,4.49,24.58,8.97,36.78,13.42q1.08,11.38-9.51,14.88c-8.59,2.85-17.18,5.73-25.62,9.7,11.76,.78,23.52,1.55,35.48,2.34,.1,1.53,.16,2.83,.26,4.12,.57,7.84-.5,10.97-10.37,10.04-20.19-1.89-40.46-2.9-61.28-4.32,0-4.84,.13-9.44-.05-14.03-.11-2.93,2.12-3.06,3.87-3.67,13.11-4.6,26.25-9.12,40.17-13.94Z'/%3E%3Cpath class='cls-4' d='M432.29,131.85c-6.95-5.67-13.91-11.32-20.84-17.01-2.19-1.79-3.91-11.86-2-13.77,2.14-2.14,4.65-3.43,7.76-.67,7.44,6.6,15.12,12.93,22.88,19.52,10.77-7.28,21.36-14.41,31.93-21.58,1.79-1.21,3.25-2.42,5.79-1.09,2.59,1.36,2.55,3.26,2.91,5.65,.9,5.93-1.53,9.35-6.59,12.32-7.71,4.53-14.93,9.89-22.42,14.94,.89,2.79,2.98,2.78,5.15,2.77,5.82-.04,11.64-.07,17.46,0,4.85,.07,6.31,1.99,6.29,7.94-.02,5.48-1.5,7.29-6.37,7.3-19.62,.05-39.24,.05-58.86,0-5.03-.01-6.45-1.84-6.43-7.75,.03-5.74,1.53-7.46,6.73-7.5,5.42-.05,10.85-.01,16.28-.01,.11-.35,.23-.71,.34-1.06Z'/%3E%3Cpath class='cls-4' d='M409.1,301.6c-1.73-5.86,1.23-8.01,6.49-9.7,18.96-6.09,37.75-12.71,56.61-19.1,5.83-1.98,7.92-.08,8.52,6.09,.55,5.64-1.18,8.81-6.87,9.57-.16,.02-.32,.09-.48,.14-13.81,4.61-13.75,4.61-13.25,19.25,.08,2.35,.66,3.55,3.08,4.2,4.32,1.15,8.53,2.72,12.79,4.12,4.26,1.4,6.53,6.83,4.41,11.98-1.65,4.01-4.93,3.87-8.74,2.55-18.5-6.43-37-12.87-55.66-18.8-5.65-1.79-8.79-4.08-6.91-10.31Zm37.51,5.28c.49-3.4,.58-6.24-.03-9.45-4.83,1.27-9.19,2.57-13.91,4.85,5.02,1.65,9.35,3.08,13.94,4.6Z'/%3E%3Cpath class='cls-4' d='M450.55,189.64h16.48c0-7.15-.03-14.1,.01-21.04,.03-5.17,1.74-6.81,6.87-6.78,4.87,.03,6.57,1.64,6.59,6.56,.05,10.15-.03,20.31,.03,30.46,.03,4.42-2.1,6.26-6.43,6.25-19.64-.06-39.28-.04-58.93-.01-4.35,0-6.37-2.09-6.35-6.4,.04-9.65-.04-19.31,.03-28.96,.03-4.65,2.09-6.52,6.8-6.54,4.81-.03,6.78,1.75,6.82,6.4,.07,6.61,.02,13.22,.02,20.06h14.48c0-6.02-.03-11.97,0-17.91,.04-5.3,1.64-6.9,6.76-6.9,5.12,0,6.75,1.6,6.79,6.87,.04,5.8,0,11.61,0,17.95Z'/%3E%3Cpath class='cls-2' d='M243.28,658.37c7.71-2.67,14.91-6.13,20.31-12.57,1.11-1.32,2.05-2.57,1.9-4.37,3.74-2.16,5.39-6.09,6.05-9.71,1.09-5.9,1.41-11.95,1.44-18.09,.06-10.92-1.59-21.88,1.58-32.9,3.47-12.05,9.3-22.52,15.44-33.32,5.19-9.14,13.59-16.16,16.72-26.47,.38-1.27,1.03-2.52,2.75-2.41-1.19,8.55-5.02,16.1-9.41,23.29-6.08,9.94-11.57,19.98-13.74,31.64-1.91,10.32-.44,20.47,.65,30.66,1.69,15.77,1.34,31.21-10.94,43.15-8.03,7.81-17.95,12.33-29.56,12.03-1.14-.03-2.36,.12-3.21-.94Z'/%3E%3Cpath class='cls-4' d='M467.03,243.81c0-7.42-.03-14.21,.01-21,.03-4.82,1.88-6.7,6.47-6.76,5-.07,6.97,1.76,7,6.75,.05,9.98-.03,19.97,.03,29.95,.03,4.39-2.03,6.3-6.38,6.29-19.64-.05-39.27,0-58.91-.05-5.15-.01-6.28-1.57-6.24-7.86,.03-5.39,1.61-7.29,6.39-7.3,16.96-.05,33.93-.02,51.62-.02Z'/%3E%3Cpath class='cls-2' d='M309.44,518.55c.3-1.82-1.27-4.37,1.96-5.06-.27,1.83-.56,3.66-1.96,5.06Z'/%3E%3Cpath class='cls-2' d='M234.42,556.41c-4.51,1.66-5.42,6.17-6.85,9.76-4.41,11.08-6.76,22.8-9.75,34.64-2.59,.18-3.78-.64-4.56-3.85-1.8-7.41,.5-14.22,2.51-20.91,1.82-6.05,4.59-11.86,7.18-17.7,5.96-13.46,14.82-25.1,23.55-36.53,5.06-6.63,9.53-15.59,19.53-17.36,1.49-.26,2.03-1.35,2.42-2.79,1.24-4.56,11.9-12.05,16.82-11.95,.22,0,.44,.42,.89,.88-2.21,4.28-6.48,6.92-9.84,9.99-7.39,6.75-13.9,14.22-20.24,21.84-6.86,8.25-12.88,17.14-18.51,26.3-.74,1.2-1.2,2.34-1.12,3.71-1.26,1.02-1.81,2.41-2.02,3.96Z'/%3E%3Cpath class='cls-3' d='M234.42,556.41c.21-1.56,.76-2.94,2.02-3.96,6-7.01,12.06-13.96,17.97-21.05,7.95-9.54,16.71-18.27,26.07-26.42,1.88-1.63,4.02-2.55,6.18-3.32,1.13,2.09-.16,2.52-1.01,3.27-13.92,12.32-25.97,26.48-38.86,39.82-3.31,3.42-5.77,7.64-8.81,11.35-.79,.97-2.06,4.33-3.57,.31Z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 481.21 765.21'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23fff; %7D .cls-2 %7B fill: %23efc69c; %7D .cls-3 %7B fill: %23dbae7d; %7D .cls-4 %7B fill: %23f4d6bb; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M409.14,38.23H38.8c0,3.99,0,7.78,0,11.56-.03,50.95-.05,101.9-.08,152.85,0,6.14-1.22,7.39-7.21,7.41-8.15,.03-16.3-.08-24.45,.04-4.57,.07-6.69-1.82-6.69-6.51C.27,152.31-.06,101.04,.09,49.76,.13,35.96,.35,22.16,0,8.36-.15,2.17,1.87,.2,7.85,.2,147.88,.12,287.9,.02,427.93,0c14.81,0,29.61,.5,44.42,.65,4.59,.05,6.73,2.16,6.61,6.69-.1,3.72,.34,7.16-2.96,10.45-44.74,44.5-89.28,89.19-133.89,133.82-62.74,62.76-125.5,125.5-188.25,188.25-36.97,36.97-73.93,73.95-110.94,110.87-2.11,2.1-3.29,4.12-3.29,7.31,.1,87.25,.08,174.5,.08,261.74v4.21H440.39c1.04-1.58,.57-3.29,.57-4.9,.03-37.63,.02-75.26,.02-112.89,0-53.43,0-106.86,0-160.29,0-6.79,1.3-8.06,8.19-8.07,7.32,0,14.64-.01,21.97,0,6.87,.01,8.16,1.28,8.16,8.07,0,76.76,0,153.52,0,230.28,0,26.47,.06,52.95,.07,79.42,0,7.28-1.52,8.68-8.65,8.83-42.95,.91-85.91,.37-128.86,.43-106.24,.16-212.47,.23-318.71,.25-4.95,0-9.98,.47-14.89-.7-6.32-1.51-7.32-2.75-7.3-9.12,.13-38.62,.35-77.23,.4-115.85,.07-62.25,.05-124.51-.05-186.76,0-4.3,1.22-7.47,4.29-10.53,54.23-54.09,108.36-108.27,162.52-162.42,67.93-67.93,135.87-135.86,203.79-203.8,11.18-11.18,22.31-22.42,33.46-33.64,1.14-1.15,2.21-2.38,3.76-4.05Z'/%3E%3Cpath class='cls-2' d='M299.43,476.59c7.14-2.75,14.65-3.81,22.16-4.93,4.07-.61,5.65,.86,4.87,4.79-.94,4.71-2.12,9.42-4.49,13.59-4.28,7.5-7.55,15.4-10.56,23.45-3.23,.69-1.66,3.24-1.96,5.06,0,0,.03,0,.03,0-1.72-.11-2.36,1.15-2.75,2.41-3.13,10.31-11.53,17.33-16.72,26.47-6.13,10.8-11.97,21.27-15.44,33.32-3.17,11.01-1.52,21.98-1.58,32.9-.03,6.14-.36,12.19-1.44,18.09-.67,3.62-2.32,7.55-6.05,9.71,.02-3.65-.4-7.29,.35-10.93,1.16-5.59,1.29-11.42,.24-16.86-2.37-12.28,.41-23.93,4.18-35.12,6.08-18.04,16.98-33.58,28.22-48.81,3.45-4.67,6.75-9.6,7.76-15.56-1.45-.46-2.02,.18-2.68,.68-13.06,9.85-22.14,23.13-31.52,36.2-12.66,17.62-18.77,38.13-26.26,58.05-.32,.85-.17,1.98,.04,2.91,1.52,6.52-.25,12.71-1.52,19.03-.99,4.9-3.4,10.22,1.83,14.65,2.31,1.96,1.55,4.77,.67,7.46-4.01,.19-7.79,.78-11.53-.39-10.16-3.17-16.64-10.46-21.8-19.31-9.9-16.99-6.66-35.6-6.39-53.74,.11-7.07,3.74-13.65,6.39-20.26,2.2-5.51,4.94-10.25,9.6-14.51,4.69-4.29,7.4-10.79,10.82-16.41,5.24-8.63,13.34-14.64,20.06-21.9,8.78-9.48,20.4-15.07,31.28-21.69,4.7-2.86,10.64-3.6,14.2-8.34Zm-62.99,75.86c-.08-1.38,.38-2.51,1.12-3.71,5.63-9.15,11.65-18.05,18.51-26.3,6.34-7.63,12.85-15.1,20.24-21.84,3.37-3.07,7.63-5.71,9.84-9.99-.45-.46-.67-.87-.89-.88-4.92-.1-15.58,7.39-16.82,11.95-.39,1.44-.93,2.52-2.42,2.79-10.01,1.77-14.48,10.74-19.53,17.36-8.73,11.43-17.59,23.07-23.55,36.53-2.58,5.84-5.36,11.65-7.18,17.7-2.01,6.69-4.31,13.49-2.51,20.91,.78,3.21,1.97,4.03,4.56,3.85,3-11.84,5.35-23.56,9.75-34.64,1.43-3.59,2.34-8.1,6.85-9.76,1.51,4.02,2.78,.65,3.57-.31,3.04-3.7,5.5-7.93,8.81-11.35,12.89-13.33,24.93-27.5,38.86-39.82,.85-.75,2.14-1.18,1.01-3.27-2.16,.78-4.31,1.69-6.18,3.32-9.36,8.15-18.11,16.88-26.07,26.42-5.91,7.09-11.98,14.04-17.97,21.05Z'/%3E%3Cpath class='cls-4' d='M299.43,476.59c-3.56,4.74-9.51,5.49-14.2,8.34-10.88,6.62-22.5,12.21-31.28,21.69-6.72,7.26-14.81,13.27-20.06,21.9-3.42,5.63-6.13,12.13-10.82,16.41-4.66,4.26-7.4,9-9.6,14.51-2.64,6.61-6.28,13.19-6.39,20.26-.27,18.14-3.52,36.75,6.39,53.74,5.16,8.85,11.64,16.13,21.8,19.31,3.75,1.17,7.53,.58,11.53,.39,.88-2.69,1.64-5.5-.67-7.46-5.23-4.43-2.81-9.75-1.83-14.65,1.27-6.33,3.04-12.51,1.52-19.03-.22-.93-.36-2.06-.04-2.91,7.49-19.92,13.61-40.42,26.26-58.05,9.39-13.07,18.46-26.36,31.52-36.2,.66-.5,1.23-1.14,2.68-.68-1.01,5.96-4.31,10.89-7.76,15.56-11.24,15.24-22.14,30.77-28.22,48.81-3.77,11.19-6.56,22.84-4.18,35.12,1.05,5.44,.93,11.27-.24,16.86-.76,3.64-.34,7.29-.35,10.93,.15,1.8-.79,3.05-1.9,4.37-5.4,6.43-12.6,9.89-20.31,12.57-16.61,.69-28.21-7.31-35.88-21.36-8.22-15.04-10.03-31.19-8.11-48.15,3.19-28.11,16.15-51.64,33.49-73.08,14.33-17.72,33.87-27.79,54.85-35.42,3.88-1.41,7.66-3.16,11.8-3.77Z'/%3E%3Cpath class='cls-1' d='M452.94,378.88c-7.93-2.9-15.21-5.54-22.49-8.21-6.24-2.29-12.44-4.65-18.71-6.85-1.76-.62-2.89-1.3-2.84-3.42,.11-4.46,.03-8.93,.03-13.52,7.87-1.53,15.55-1.25,23.14-1.84,13.77-1.06,27.57-1.72,41.36-2.48,5.55-.31,7.15,1.24,7.12,6.85-.01,2.45,.47,4.97-.56,7.78-12.13,.64-24.34,1.28-36.56,1.92-.08,.4-.16,.81-.24,1.21,12.29,4.49,24.58,8.97,36.78,13.42q1.08,11.38-9.51,14.88c-8.59,2.85-17.18,5.73-25.62,9.7,11.76,.78,23.52,1.55,35.48,2.34,.1,1.53,.16,2.83,.26,4.12,.57,7.84-.5,10.97-10.37,10.04-20.19-1.89-40.46-2.9-61.28-4.32,0-4.84,.13-9.44-.05-14.03-.11-2.93,2.12-3.06,3.87-3.67,13.11-4.6,26.25-9.12,40.17-13.94Z'/%3E%3Cpath class='cls-1' d='M432.29,131.85c-6.95-5.67-13.91-11.32-20.84-17.01-2.19-1.79-3.91-11.86-2-13.77,2.14-2.14,4.65-3.43,7.76-.67,7.44,6.6,15.12,12.93,22.88,19.52,10.77-7.28,21.36-14.41,31.93-21.58,1.79-1.21,3.25-2.42,5.79-1.09,2.59,1.36,2.55,3.26,2.91,5.65,.9,5.93-1.53,9.35-6.59,12.32-7.71,4.53-14.93,9.89-22.42,14.94,.89,2.79,2.98,2.78,5.15,2.77,5.82-.04,11.64-.07,17.46,0,4.85,.07,6.31,1.99,6.29,7.94-.02,5.48-1.5,7.29-6.37,7.3-19.62,.05-39.24,.05-58.86,0-5.03-.01-6.45-1.84-6.43-7.75,.03-5.74,1.53-7.46,6.73-7.5,5.42-.05,10.85-.01,16.28-.01,.11-.35,.23-.71,.34-1.06Z'/%3E%3Cpath class='cls-1' d='M409.1,301.6c-1.73-5.86,1.23-8.01,6.49-9.7,18.96-6.09,37.75-12.71,56.61-19.1,5.83-1.98,7.92-.08,8.52,6.09,.55,5.64-1.18,8.81-6.87,9.57-.16,.02-.32,.09-.48,.14-13.81,4.61-13.75,4.61-13.25,19.25,.08,2.35,.66,3.55,3.08,4.2,4.32,1.15,8.53,2.72,12.79,4.12,4.26,1.4,6.53,6.83,4.41,11.98-1.65,4.01-4.93,3.87-8.74,2.55-18.5-6.43-37-12.87-55.66-18.8-5.65-1.79-8.79-4.08-6.91-10.31Zm37.51,5.28c.49-3.4,.58-6.24-.03-9.45-4.83,1.27-9.19,2.57-13.91,4.85,5.02,1.65,9.35,3.08,13.94,4.6Z'/%3E%3Cpath class='cls-1' d='M450.55,189.64h16.48c0-7.15-.03-14.1,.01-21.04,.03-5.17,1.74-6.81,6.87-6.78,4.87,.03,6.57,1.64,6.59,6.56,.05,10.15-.03,20.31,.03,30.46,.03,4.42-2.1,6.26-6.43,6.25-19.64-.06-39.28-.04-58.93-.01-4.35,0-6.37-2.09-6.35-6.4,.04-9.65-.04-19.31,.03-28.96,.03-4.65,2.09-6.52,6.8-6.54,4.81-.03,6.78,1.75,6.82,6.4,.07,6.61,.02,13.22,.02,20.06h14.48c0-6.02-.03-11.97,0-17.91,.04-5.3,1.64-6.9,6.76-6.9,5.12,0,6.75,1.6,6.79,6.87,.04,5.8,0,11.61,0,17.95Z'/%3E%3Cpath class='cls-3' d='M243.28,658.37c7.71-2.67,14.91-6.13,20.31-12.57,1.11-1.32,2.05-2.57,1.9-4.37,3.74-2.16,5.39-6.09,6.05-9.71,1.09-5.9,1.41-11.95,1.44-18.09,.06-10.92-1.59-21.88,1.58-32.9,3.47-12.05,9.3-22.52,15.44-33.32,5.19-9.14,13.59-16.16,16.72-26.47,.38-1.27,1.03-2.52,2.75-2.41-1.19,8.55-5.02,16.1-9.41,23.29-6.08,9.94-11.57,19.98-13.74,31.64-1.91,10.32-.44,20.47,.65,30.66,1.69,15.77,1.34,31.21-10.94,43.15-8.03,7.81-17.95,12.33-29.56,12.03-1.14-.03-2.36,.12-3.21-.94Z'/%3E%3Cpath class='cls-1' d='M467.03,243.81c0-7.42-.03-14.21,.01-21,.03-4.82,1.88-6.7,6.47-6.76,5-.07,6.97,1.76,7,6.75,.05,9.98-.03,19.97,.03,29.95,.03,4.39-2.03,6.3-6.38,6.29-19.64-.05-39.27,0-58.91-.05-5.15-.01-6.28-1.57-6.24-7.86,.03-5.39,1.61-7.29,6.39-7.3,16.96-.05,33.93-.02,51.62-.02Z'/%3E%3Cpath class='cls-3' d='M309.44,518.55c.3-1.82-1.27-4.37,1.96-5.06-.27,1.83-.56,3.66-1.96,5.06Z'/%3E%3Cpath class='cls-3' d='M234.42,556.41c-4.51,1.66-5.42,6.17-6.85,9.76-4.41,11.08-6.76,22.8-9.75,34.64-2.59,.18-3.78-.64-4.56-3.85-1.8-7.41,.5-14.22,2.51-20.91,1.82-6.05,4.59-11.86,7.18-17.7,5.96-13.46,14.82-25.1,23.55-36.53,5.06-6.63,9.53-15.59,19.53-17.36,1.49-.26,2.03-1.35,2.42-2.79,1.24-4.56,11.9-12.05,16.82-11.95,.22,0,.44,.42,.89,.88-2.21,4.28-6.48,6.92-9.84,9.99-7.39,6.75-13.9,14.22-20.24,21.84-6.86,8.25-12.88,17.14-18.51,26.3-.74,1.2-1.2,2.34-1.12,3.71-1.26,1.02-1.81,2.41-2.02,3.96Z'/%3E%3Cpath class='cls-4' d='M234.42,556.41c.21-1.56,.76-2.94,2.02-3.96,6-7.01,12.06-13.96,17.97-21.05,7.95-9.54,16.71-18.27,26.07-26.42,1.88-1.63,4.02-2.55,6.18-3.32,1.13,2.09-.16,2.52-1.01,3.27-13.92,12.32-25.97,26.48-38.86,39.82-3.31,3.42-5.77,7.64-8.81,11.35-.79,.97-2.06,4.33-3.57,.31Z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* filter: brightness(14.5); */
+}
+
+.add-cart-large,.order-btn {
+    /* background: var(--main-text-color2)!important; */
+    /* border-color: var(--main-text-color2)!important; */
+}
+
+.product .product-title {
+    text-align: center
+}
+
+p.mb-4.mb-md-0 {
+    color: #fff!important
+}
+
+.footer-sub a {
+    color: transparent!important;
+    text-decoration: underline
+}
+
+section {
+    background: #fff!important
+}
+
+.u-white .container {
+    background-color: #fff!important
+}
+
+.section-header .section--title span {
+    color: var(--main-color);
+    background: #fff
+}
+
+body.salla-theme_1 .section-header .btn.btn-primary.btn-rounded,body.salla-theme_2 .section-header .btn.btn-primary.btn-rounded,body.salla-theme_4 .section-header .btn.btn-primary.btn-rounded {
+    height: 36px;
+    font-size: 15px;
+    color: #ffffff!important;
+    border-color: var(--main-text-color2)!important;
+    padding: 0 15px;
+    background: linear-gradient(to left,var(--main-text-color2),var(--main-text-color2))!important;
+    transition: all .35s cubic-bezier(0.2,1,0.3,1);
+}
+
+.login-link,.contact-link,.notification-link,.store-contact a,.store-header-min .back-icon,.circle-action,#cl_toggle {
+    color: #fff!important;
+    border-color: var(--main-color)!important;
+    margin: 5px 0 0 0;
+}
+
+button.circle-action.ml-md-2.toggle-search {
+    margin: 6px 8px 1px 1px
+}
+
+.site-header__cart .badge {
+    color: #fff!important;
+    border: 2px solid var(--main-color)!important;
+    background: var(--main-color);
+}
+
+.breadcrumb>.active {
+    color: #fff!important
+}
+
+.slick-list.draggable {
+    border-radius: 0 0 42px 42px
+}
+
+.product-form {
+    padding: 1rem;
+    background: #fff!important;
+    border: 1px solid var(--main-text-color2)!important;
+    border-radius: 4px
+}
+
+.product-form,.product-options {
+    background-color: #fff!important;
+    padding: 20px!important;
+    border: 1px solid var(--main-text-color2)!important;
+    border-radius: 3px
+}
+
+.product-option-name {
+    color: #fff!important
+}
+
+.cart-fav .btn-rounded.add-to-wishlist i,.cart-fav .btn-rounded.remove-from-wishlist i {
+    color: var(--main-color)!important;
+}
+
+.a2a_svg {
+    -webkit-filter: none;
+    filter: none;
+    opacity: .9
+}
+
+.product-cart,.cart-total-box {
+    width: 100%;
+    border: 1px solid #cecece!important
+}
+
+.product-cart {
+    position: relative;
+    width: 95%;
+    margin: 0 auto 30px;
+    border-radius: 5px
+}
+
+.cart-total-box {
+    position: relative;
+    width: 95%;
+    height: 62px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    border-radius: 4px
+}
+
+.cart-nav-submit,.cart-nav-more,.cart-nav-solid {
+    background: #1b1829!important;
+    border-color: #1b1829!important
+}
+
+#cart-content #cartTotal {
+    color: var(--main-text-color2)!important
+}
+
+.delete-button {
+    color: var(--main-text-color2)!important;
+    border: 2px solid var(--main-text-color2)!important
+}
+
+.cart-number,.active-step .cart-number {
+    color: var(--main-text-color2)!important;
+    border-color: var(--main-text-color2)!important;
+    background: #1b1829
+}
+
+@media only screen and (max-width: 767px) {
+    body:not(.salla-default) .cart-fav {
+        position:fixed!important;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        box-shadow: 0 0 10px rgb(0 0 0 / 5%);
+        padding: 10px;
+        background-color: #1b1829!important;
+        z-index: 9999
+    }
+
+    a.add-cart-large.add_to_cart_large_btn {
+        font-size: 18px
+    }
+}
+
+.circle-action:hover {
+    background: var(--main-text-color2)!important;
+    color: var(--main-color)!important
+}
+
+ul.list.brands-list li {
+    background: #fff;
+    border-radius: 12px
+}
+
+ul.list.brands-list li:hover {
+    animation: tournemoi ease 1s
+}
+
+body:not(.salla-theme_6) .category-featured {
+    border-radius: 26px
+}
+
+.breadcrumb>.active {
+    color: #16414f!important
+}
+
+.product-details__title {
+    color: #154755!important
+}
+
+.product-option-name {
+    color: #164855!important
+}
+
+.login-form .panel-title::before {
+    content: "";
+    text-align: center!important;
+    display: block;
+    height: 124px!important;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 481.21 765.21'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23fff; %7D .cls-2 %7B fill: %23efc69c; %7D .cls-3 %7B fill: %23dbae7d; %7D .cls-4 %7B fill: %23f4d6bb; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M409.14,38.23H38.8c0,3.99,0,7.78,0,11.56-.03,50.95-.05,101.9-.08,152.85,0,6.14-1.22,7.39-7.21,7.41-8.15,.03-16.3-.08-24.45,.04-4.57,.07-6.69-1.82-6.69-6.51C.27,152.31-.06,101.04,.09,49.76,.13,35.96,.35,22.16,0,8.36-.15,2.17,1.87,.2,7.85,.2,147.88,.12,287.9,.02,427.93,0c14.81,0,29.61,.5,44.42,.65,4.59,.05,6.73,2.16,6.61,6.69-.1,3.72,.34,7.16-2.96,10.45-44.74,44.5-89.28,89.19-133.89,133.82-62.74,62.76-125.5,125.5-188.25,188.25-36.97,36.97-73.93,73.95-110.94,110.87-2.11,2.1-3.29,4.12-3.29,7.31,.1,87.25,.08,174.5,.08,261.74v4.21H440.39c1.04-1.58,.57-3.29,.57-4.9,.03-37.63,.02-75.26,.02-112.89,0-53.43,0-106.86,0-160.29,0-6.79,1.3-8.06,8.19-8.07,7.32,0,14.64-.01,21.97,0,6.87,.01,8.16,1.28,8.16,8.07,0,76.76,0,153.52,0,230.28,0,26.47,.06,52.95,.07,79.42,0,7.28-1.52,8.68-8.65,8.83-42.95,.91-85.91,.37-128.86,.43-106.24,.16-212.47,.23-318.71,.25-4.95,0-9.98,.47-14.89-.7-6.32-1.51-7.32-2.75-7.3-9.12,.13-38.62,.35-77.23,.4-115.85,.07-62.25,.05-124.51-.05-186.76,0-4.3,1.22-7.47,4.29-10.53,54.23-54.09,108.36-108.27,162.52-162.42,67.93-67.93,135.87-135.86,203.79-203.8,11.18-11.18,22.31-22.42,33.46-33.64,1.14-1.15,2.21-2.38,3.76-4.05Z'/%3E%3Cpath class='cls-2' d='M299.43,476.59c7.14-2.75,14.65-3.81,22.16-4.93,4.07-.61,5.65,.86,4.87,4.79-.94,4.71-2.12,9.42-4.49,13.59-4.28,7.5-7.55,15.4-10.56,23.45-3.23,.69-1.66,3.24-1.96,5.06,0,0,.03,0,.03,0-1.72-.11-2.36,1.15-2.75,2.41-3.13,10.31-11.53,17.33-16.72,26.47-6.13,10.8-11.97,21.27-15.44,33.32-3.17,11.01-1.52,21.98-1.58,32.9-.03,6.14-.36,12.19-1.44,18.09-.67,3.62-2.32,7.55-6.05,9.71,.02-3.65-.4-7.29,.35-10.93,1.16-5.59,1.29-11.42,.24-16.86-2.37-12.28,.41-23.93,4.18-35.12,6.08-18.04,16.98-33.58,28.22-48.81,3.45-4.67,6.75-9.6,7.76-15.56-1.45-.46-2.02,.18-2.68,.68-13.06,9.85-22.14,23.13-31.52,36.2-12.66,17.62-18.77,38.13-26.26,58.05-.32,.85-.17,1.98,.04,2.91,1.52,6.52-.25,12.71-1.52,19.03-.99,4.9-3.4,10.22,1.83,14.65,2.31,1.96,1.55,4.77,.67,7.46-4.01,.19-7.79,.78-11.53-.39-10.16-3.17-16.64-10.46-21.8-19.31-9.9-16.99-6.66-35.6-6.39-53.74,.11-7.07,3.74-13.65,6.39-20.26,2.2-5.51,4.94-10.25,9.6-14.51,4.69-4.29,7.4-10.79,10.82-16.41,5.24-8.63,13.34-14.64,20.06-21.9,8.78-9.48,20.4-15.07,31.28-21.69,4.7-2.86,10.64-3.6,14.2-8.34Zm-62.99,75.86c-.08-1.38,.38-2.51,1.12-3.71,5.63-9.15,11.65-18.05,18.51-26.3,6.34-7.63,12.85-15.1,20.24-21.84,3.37-3.07,7.63-5.71,9.84-9.99-.45-.46-.67-.87-.89-.88-4.92-.1-15.58,7.39-16.82,11.95-.39,1.44-.93,2.52-2.42,2.79-10.01,1.77-14.48,10.74-19.53,17.36-8.73,11.43-17.59,23.07-23.55,36.53-2.58,5.84-5.36,11.65-7.18,17.7-2.01,6.69-4.31,13.49-2.51,20.91,.78,3.21,1.97,4.03,4.56,3.85,3-11.84,5.35-23.56,9.75-34.64,1.43-3.59,2.34-8.1,6.85-9.76,1.51,4.02,2.78,.65,3.57-.31,3.04-3.7,5.5-7.93,8.81-11.35,12.89-13.33,24.93-27.5,38.86-39.82,.85-.75,2.14-1.18,1.01-3.27-2.16,.78-4.31,1.69-6.18,3.32-9.36,8.15-18.11,16.88-26.07,26.42-5.91,7.09-11.98,14.04-17.97,21.05Z'/%3E%3Cpath class='cls-4' d='M299.43,476.59c-3.56,4.74-9.51,5.49-14.2,8.34-10.88,6.62-22.5,12.21-31.28,21.69-6.72,7.26-14.81,13.27-20.06,21.9-3.42,5.63-6.13,12.13-10.82,16.41-4.66,4.26-7.4,9-9.6,14.51-2.64,6.61-6.28,13.19-6.39,20.26-.27,18.14-3.52,36.75,6.39,53.74,5.16,8.85,11.64,16.13,21.8,19.31,3.75,1.17,7.53,.58,11.53,.39,.88-2.69,1.64-5.5-.67-7.46-5.23-4.43-2.81-9.75-1.83-14.65,1.27-6.33,3.04-12.51,1.52-19.03-.22-.93-.36-2.06-.04-2.91,7.49-19.92,13.61-40.42,26.26-58.05,9.39-13.07,18.46-26.36,31.52-36.2,.66-.5,1.23-1.14,2.68-.68-1.01,5.96-4.31,10.89-7.76,15.56-11.24,15.24-22.14,30.77-28.22,48.81-3.77,11.19-6.56,22.84-4.18,35.12,1.05,5.44,.93,11.27-.24,16.86-.76,3.64-.34,7.29-.35,10.93,.15,1.8-.79,3.05-1.9,4.37-5.4,6.43-12.6,9.89-20.31,12.57-16.61,.69-28.21-7.31-35.88-21.36-8.22-15.04-10.03-31.19-8.11-48.15,3.19-28.11,16.15-51.64,33.49-73.08,14.33-17.72,33.87-27.79,54.85-35.42,3.88-1.41,7.66-3.16,11.8-3.77Z'/%3E%3Cpath class='cls-1' d='M452.94,378.88c-7.93-2.9-15.21-5.54-22.49-8.21-6.24-2.29-12.44-4.65-18.71-6.85-1.76-.62-2.89-1.3-2.84-3.42,.11-4.46,.03-8.93,.03-13.52,7.87-1.53,15.55-1.25,23.14-1.84,13.77-1.06,27.57-1.72,41.36-2.48,5.55-.31,7.15,1.24,7.12,6.85-.01,2.45,.47,4.97-.56,7.78-12.13,.64-24.34,1.28-36.56,1.92-.08,.4-.16,.81-.24,1.21,12.29,4.49,24.58,8.97,36.78,13.42q1.08,11.38-9.51,14.88c-8.59,2.85-17.18,5.73-25.62,9.7,11.76,.78,23.52,1.55,35.48,2.34,.1,1.53,.16,2.83,.26,4.12,.57,7.84-.5,10.97-10.37,10.04-20.19-1.89-40.46-2.9-61.28-4.32,0-4.84,.13-9.44-.05-14.03-.11-2.93,2.12-3.06,3.87-3.67,13.11-4.6,26.25-9.12,40.17-13.94Z'/%3E%3Cpath class='cls-1' d='M432.29,131.85c-6.95-5.67-13.91-11.32-20.84-17.01-2.19-1.79-3.91-11.86-2-13.77,2.14-2.14,4.65-3.43,7.76-.67,7.44,6.6,15.12,12.93,22.88,19.52,10.77-7.28,21.36-14.41,31.93-21.58,1.79-1.21,3.25-2.42,5.79-1.09,2.59,1.36,2.55,3.26,2.91,5.65,.9,5.93-1.53,9.35-6.59,12.32-7.71,4.53-14.93,9.89-22.42,14.94,.89,2.79,2.98,2.78,5.15,2.77,5.82-.04,11.64-.07,17.46,0,4.85,.07,6.31,1.99,6.29,7.94-.02,5.48-1.5,7.29-6.37,7.3-19.62,.05-39.24,.05-58.86,0-5.03-.01-6.45-1.84-6.43-7.75,.03-5.74,1.53-7.46,6.73-7.5,5.42-.05,10.85-.01,16.28-.01,.11-.35,.23-.71,.34-1.06Z'/%3E%3Cpath class='cls-1' d='M409.1,301.6c-1.73-5.86,1.23-8.01,6.49-9.7,18.96-6.09,37.75-12.71,56.61-19.1,5.83-1.98,7.92-.08,8.52,6.09,.55,5.64-1.18,8.81-6.87,9.57-.16,.02-.32,.09-.48,.14-13.81,4.61-13.75,4.61-13.25,19.25,.08,2.35,.66,3.55,3.08,4.2,4.32,1.15,8.53,2.72,12.79,4.12,4.26,1.4,6.53,6.83,4.41,11.98-1.65,4.01-4.93,3.87-8.74,2.55-18.5-6.43-37-12.87-55.66-18.8-5.65-1.79-8.79-4.08-6.91-10.31Zm37.51,5.28c.49-3.4,.58-6.24-.03-9.45-4.83,1.27-9.19,2.57-13.91,4.85,5.02,1.65,9.35,3.08,13.94,4.6Z'/%3E%3Cpath class='cls-1' d='M450.55,189.64h16.48c0-7.15-.03-14.1,.01-21.04,.03-5.17,1.74-6.81,6.87-6.78,4.87,.03,6.57,1.64,6.59,6.56,.05,10.15-.03,20.31,.03,30.46,.03,4.42-2.1,6.26-6.43,6.25-19.64-.06-39.28-.04-58.93-.01-4.35,0-6.37-2.09-6.35-6.4,.04-9.65-.04-19.31,.03-28.96,.03-4.65,2.09-6.52,6.8-6.54,4.81-.03,6.78,1.75,6.82,6.4,.07,6.61,.02,13.22,.02,20.06h14.48c0-6.02-.03-11.97,0-17.91,.04-5.3,1.64-6.9,6.76-6.9,5.12,0,6.75,1.6,6.79,6.87,.04,5.8,0,11.61,0,17.95Z'/%3E%3Cpath class='cls-3' d='M243.28,658.37c7.71-2.67,14.91-6.13,20.31-12.57,1.11-1.32,2.05-2.57,1.9-4.37,3.74-2.16,5.39-6.09,6.05-9.71,1.09-5.9,1.41-11.95,1.44-18.09,.06-10.92-1.59-21.88,1.58-32.9,3.47-12.05,9.3-22.52,15.44-33.32,5.19-9.14,13.59-16.16,16.72-26.47,.38-1.27,1.03-2.52,2.75-2.41-1.19,8.55-5.02,16.1-9.41,23.29-6.08,9.94-11.57,19.98-13.74,31.64-1.91,10.32-.44,20.47,.65,30.66,1.69,15.77,1.34,31.21-10.94,43.15-8.03,7.81-17.95,12.33-29.56,12.03-1.14-.03-2.36,.12-3.21-.94Z'/%3E%3Cpath class='cls-1' d='M467.03,243.81c0-7.42-.03-14.21,.01-21,.03-4.82,1.88-6.7,6.47-6.76,5-.07,6.97,1.76,7,6.75,.05,9.98-.03,19.97,.03,29.95,.03,4.39-2.03,6.3-6.38,6.29-19.64-.05-39.27,0-58.91-.05-5.15-.01-6.28-1.57-6.24-7.86,.03-5.39,1.61-7.29,6.39-7.3,16.96-.05,33.93-.02,51.62-.02Z'/%3E%3Cpath class='cls-3' d='M309.44,518.55c.3-1.82-1.27-4.37,1.96-5.06-.27,1.83-.56,3.66-1.96,5.06Z'/%3E%3Cpath class='cls-3' d='M234.42,556.41c-4.51,1.66-5.42,6.17-6.85,9.76-4.41,11.08-6.76,22.8-9.75,34.64-2.59,.18-3.78-.64-4.56-3.85-1.8-7.41,.5-14.22,2.51-20.91,1.82-6.05,4.59-11.86,7.18-17.7,5.96-13.46,14.82-25.1,23.55-36.53,5.06-6.63,9.53-15.59,19.53-17.36,1.49-.26,2.03-1.35,2.42-2.79,1.24-4.56,11.9-12.05,16.82-11.95,.22,0,.44,.42,.89,.88-2.21,4.28-6.48,6.92-9.84,9.99-7.39,6.75-13.9,14.22-20.24,21.84-6.86,8.25-12.88,17.14-18.51,26.3-.74,1.2-1.2,2.34-1.12,3.71-1.26,1.02-1.81,2.41-2.02,3.96Z'/%3E%3Cpath class='cls-4' d='M234.42,556.41c.21-1.56,.76-2.94,2.02-3.96,6-7.01,12.06-13.96,17.97-21.05,7.95-9.54,16.71-18.27,26.07-26.42,1.88-1.63,4.02-2.55,6.18-3.32,1.13,2.09-.16,2.52-1.01,3.27-13.92,12.32-25.97,26.48-38.86,39.82-3.31,3.42-5.77,7.64-8.81,11.35-.79,.97-2.06,4.33-3.57,.31Z'/%3E%3C/svg%3E");
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    background-position: top center!important;
+    margin-bottom: 25px;
+}
+
+.login-form .panel-title .icon-object {
+    display: none!important
+}
+
+.sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories>li a {
+    color: #fff!important;
+    margin: 5px;
+    border: #1f1a13 solid 0!important;
+    border-radius: 10px 10px 10px 10px!important;
+    background: linear-gradient(to left,transparent,var(--main-text-color2))!important;
+    box-shadow: 2.5px 2.5px 5px #22232c94,-2.5px -2.5px 5px #21232e00;
+    font-family: 'Almarai',sans-serif,sallaicons,icomoon!important
+}
+
+.sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories>li a:hover {
+    background: linear-gradient(to left,var(--main-text-color2),transparent)!important
+}
+
+.sub-nav .main-menu li#ls_switcher_mobile a:before {
+    color: var(--main-text-color2)
+}
+
+.cart-nav-submit,.cart-nav-more,.cart-nav-solid {
+    background: linear-gradient(to left,var(--main-color),var(--main-text-color2))!important;
+    border-color: aliceblue!important
+}
+
+.social__item a {
+    display: block;
+    width: 36px;
+    height: 36px;
+    color: var(--main-text-color2);
+    text-align: center;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 0 solid rgba(0,0,0,.2);
+    font-size: 18px;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    box-shadow: 2.5px 2.5px 5px #00000017, -2.5px -2.5px 5px #ffffff2b;
+}
+
+.cart-number,.active-step .cart-number {
+    color: #fff!important;
+    border-color: var(--main-text-color2)!important;
+    background: linear-gradient(to left,var(--main-color),var(--main-text-color2))!important
+}
+
+.a2a_kit.a2a_kit_size_32.a2a_default_style {
+    /* background: linear-gradient(to left,#632c5a,var(--main-text-color2))!important; */
+    padding: 8px 0 8px 2px;
+    border-radius: 30px;
+}
+
+.banner img {
+    border-radius: 25px
+}
+
+.section[data-type="banner"] {
+    padding: 0rem 0 0!important;
+    margin-bottom: 0rem;
+    margin-top: 0rem
+}
+
+.product,.product img {
+    border: var(--main-text-color2)solid 0!important
+}
+
+.product {
+    border: 0 solid #eee;
+    box-shadow: 0 2px 10px -3px #c8c8c8;
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: #fff
+}
+
+.social__item a {
+    border-color: var(--main-color);
+    border: 1px solid var(--main-color)!important;
+}
+
+.feature-item__content {
+    background: #fff
+}
+
+.feature-item__icon {
+    background: #fff!important;
+    color: #000;
+    border: none!important;
+    min-height: 90px;
+    width: 100%!important;
+    height: 40px;
+    margin-bottom: 0!important
+}
+
+.feature-item p {
+    background: linear-gradient(to left,#fff,#e2e2e2)!important;
+    padding-bottom: 10px!important
+}
+
+.salla-theme_4 .feature-item__content p {
+    padding: .5rem;
+    padding-bottom: .5rem;
+    width: 100%!important;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    min-height: 60px;
+    border-radius: 0 5rem!important
+}
+
+.salla-theme_4 .feature-item__content .feature-item__icon {
+    width: 100%!important;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 5rem 0!important
+}
+
+.product {
+    border-radius: 8px
+}
+
+section.section {
+    padding: 0
+}
+
+html,body,div,span,object,h1,h2,h3,h4,h5,h6,p,blockquote,a,abbr,img,small,strong,ol,ul,li,dd,form,label,table,caption,article,aside,canvas,details,embed,figure,figcaption,footer,header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: sub!important
+}
+
+a.next.button-more {
+    vertical-align: bottom!important
+}
+
+p.mb-4.mb-md-0,body > footer > div.footer-sub.text-center > div > div > div > p {
+    color: #fff!important;
+}
+
+.footer-sub p:before {
+    /* content: "جميع الحقوق محفوظة لمتجر " "   ساسك        "; */
+    display: block;
+    max-height: 30px!important;
+    color: var(--color-main-l);
+}
+
+body > footer > div.footer-sub.text-center::after {
+    content: "تصميم وبرمجة " " | " "على احمد 3lwaaa@gmail.com ";
+    display: block;
+    max-height: 30px!important;
+    color: #fefefe;
+    font-size: 10px;
+}
+
+.salla-theme_6 .product .product-footer .product-add.add_to_cart_btn {
+    border-radius: 10px;
+    background-color: #eee
+}
+
+.salla-theme_6 .product .product-footer .product-add.add_to_cart_btn span:last-child {
+    font-size: 18px
+}
+
+@keyframes signal {
+    0% {
+        box-shadow: 0 0 0 0 #f7da90
+    }
+
+    100% {
+        box-shadow: 0 0 0 10px #fff
+    }
+}
+
+.offers-link,.price-after {
+    color: #444!important
+}
+
+.product-add {
+    animation: signal 1200ms infinite
+}
+
+.salla-theme_4 footer ul.footer-links {
+    -moz-columns: 2;
+    columns: 1
+}
+
+.col-sm-4 {
+    width: 25%;
+    float: right;
+    padding-right: 5px;
+    padding-left: 5px
+}
+
+.product {
+    border-radius: 8px
+}
+
+section.section {
+    padding: 0
+}
+
+.salla-theme_4 .site-header #cl_switcher_wrapper #cl_switcher #cl_toggle:hover {
+    background-color: var(--main-text-color2)!important
+}
+
+@media(max-width: 991px) {
+    .sub-nav .sub-nav-content {
+        right:0;
+        width: 75%;
+        height: 90%;
+        text-align: right;
+        overflow-y: scroll;
+        -webkit-transition: all .7s ease;
+        transition: all .7s ease;
+        -webkit-transform: translateX(110%);
+        transform: translateX(110%);
+        border-radius: 8px 0 20% 5%;
+        margin: 70px 20px 0 0
+    }
+}
+
+.sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories>li a:before,.sub-nav .main-menu li.sub-menu-logged-in a i,.sub-nav .main-menu li.sub-menu-header.categories-holder>span i {
+    content: "";
+    font-family: sallaicons,icomoon!important;
+    font-size: 16px;
+    margin-left: 5px;
+    color: #ffffff!important;
+    background: var(--main-text-color2);
+    padding: 5px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border: 1px solid #1c1b1b;
+    vertical-align: middle;
+}
+
+.main-menu li:not(.sub-menu-logged-in)>a:before {
+    content: "";
+    font-family: sallaicons,icomoon!important;
+    font-size: inherit;
+    margin-left: 5px;
+    padding: 0px 0 0 0;
+    vertical-align: middle;
+}
+
+.sub-nav .main-menu li#ls_switcher_mobile a:before {
+    content: "\E93D"!important;
+    font-family: sallaicons;
+    color: var(--main-text-color2)!important;
+    display: initial;
+    vertical-align: middle;
+    font-size: 16px;
+    margin-left: 5px!important
+}
+
+.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li>a:hover:before,.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li.has-children:hover>a:before {
+    filter: brightness(0.81)!important
+}
+
+.salla-theme_6 .sub-nav .main-menu li.has-children:hover a {
+    color: #eee!important
+}
+
+.sub-nav .main-menu li.sub-menu-header.categories-holder>ul.store-categories>li>a:before {
+    content: "\ef39"!important;
+}
+
+body > footer > div.footer-header > div > div > div > div > div.store-certificate > a:nth-child(1) > img {
+    display: none!important
+}
+
+body > footer > div.footer-header > div > div > div > div > div.store-certificate > a:nth-child(1)::before {
+    content: ""!important;
+    height: 40px!important;
+    background: url(https://maroof.sa/Content/Stamps/ImageCr.png)!important;
+    background-size: contain!important;
+    width: 100px!important;
+    display: block;
+    background-repeat: no-repeat!important;
+    border: none!important;
+    margin: auto
+}
+
+span.price-before {
+    color: #f00!important
+}
+
+a.sub-nav__menu.ml-2::after {
+    content: 'القائمة';
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    color: var(--main-text-color2);
+    font-size: 10px;
+    top: 72%;
+    left: -4%;
+    color: #fff;
+}
+
+.store-notify {
+    background: linear-gradient(to left,var(--main-text-color2),var(--main-text-color2))!important;
+    color: #fde7c0!important
+}
+
+.promotion-title {
+    background-color: #a39007!important;
+    color: #0e0e0e!important;
+    animation: pulse 5s infinite!important
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #fde7c0
+    }
+
+    50% {
+        background-color: #ffe1ab
+    }
+
+    100% {
+        background-color: #ffc45c
+    }
+}
+
+.shipping-bar .free-shipping__label {
+    font-size: 18px;
+    font-weight: 800
+}
+
+.shipping-bar .free-shipping__bar>div>div,.shipping-bar .free-shipping__bar>div>span {
+    background: linear-gradient(90deg,var(--main-color),var(--main-text-color2))!important
+}
+
+.shipping-bar .free-shipping__bar>div>span:after {
+    border-top: 5px solid var(--main-text-color2)
+}
+
+.add-cart-large,.order-btn {
+    color: #fff!important
+}
+
+li.sub-menu-header.categories-holder {
+    font-size: 23pt!important
+}
+
+.modal-content {
+    background-color: var(--main-color)!important;
+}
+
+.panel {
+    background-color: transparent
+}
+
+footer {
+    padding: 0 8px
+}
+
+.footer-item .store-contact {
+    margin: 5px 0 0;
+    border: 0;
+    text-align: right;
+    font-size: 14px
+}
+
+body.store-home:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left,#f9f9f9,#f9f9f9)!important;
+    position: fixed;
+    z-index: 999999;
+    transform: scale(0);
+    animation-name: pupup;
+    animation-duration: 1s
+}
+
+@keyframes pupup {
+    0% {
+        transform: scale(1)
+    }
+
+    18% {
+        transform: scale(1)
+    }
+
+    80% {
+        transform: scale(1)
+    }
+
+    100% {
+        transform: scale(0)
+    }
+}
+
+body.store-home:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 999999;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 481.21 765.21'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23efc69c; %7D .cls-2 %7B fill: %23dbae7d; %7D .cls-3 %7B fill: %23f4d6bb; %7D .cls-4 %7B fill: %235a505b; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-4' d='M409.14,38.23H38.8c0,3.99,0,7.78,0,11.56-.03,50.95-.05,101.9-.08,152.85,0,6.14-1.22,7.39-7.21,7.41-8.15,.03-16.3-.08-24.45,.04-4.57,.07-6.69-1.82-6.69-6.51C.27,152.31-.06,101.04,.09,49.76,.13,35.96,.35,22.16,0,8.36-.15,2.17,1.87,.2,7.85,.2,147.88,.12,287.9,.02,427.93,0c14.81,0,29.61,.5,44.42,.65,4.59,.05,6.73,2.16,6.61,6.69-.1,3.72,.34,7.16-2.96,10.45-44.74,44.5-89.28,89.19-133.89,133.82-62.74,62.76-125.5,125.5-188.25,188.25-36.97,36.97-73.93,73.95-110.94,110.87-2.11,2.1-3.29,4.12-3.29,7.31,.1,87.25,.08,174.5,.08,261.74v4.21H440.39c1.04-1.58,.57-3.29,.57-4.9,.03-37.63,.02-75.26,.02-112.89,0-53.43,0-106.86,0-160.29,0-6.79,1.3-8.06,8.19-8.07,7.32,0,14.64-.01,21.97,0,6.87,.01,8.16,1.28,8.16,8.07,0,76.76,0,153.52,0,230.28,0,26.47,.06,52.95,.07,79.42,0,7.28-1.52,8.68-8.65,8.83-42.95,.91-85.91,.37-128.86,.43-106.24,.16-212.47,.23-318.71,.25-4.95,0-9.98,.47-14.89-.7-6.32-1.51-7.32-2.75-7.3-9.12,.13-38.62,.35-77.23,.4-115.85,.07-62.25,.05-124.51-.05-186.76,0-4.3,1.22-7.47,4.29-10.53,54.23-54.09,108.36-108.27,162.52-162.42,67.93-67.93,135.87-135.86,203.79-203.8,11.18-11.18,22.31-22.42,33.46-33.64,1.14-1.15,2.21-2.38,3.76-4.05Z'/%3E%3Cpath class='cls-1' d='M299.43,476.59c7.14-2.75,14.65-3.81,22.16-4.93,4.07-.61,5.65,.86,4.87,4.79-.94,4.71-2.12,9.42-4.49,13.59-4.28,7.5-7.55,15.4-10.56,23.45-3.23,.69-1.66,3.24-1.96,5.06,0,0,.03,0,.03,0-1.72-.11-2.36,1.15-2.75,2.41-3.13,10.31-11.53,17.33-16.72,26.47-6.13,10.8-11.97,21.27-15.44,33.32-3.17,11.01-1.52,21.98-1.58,32.9-.03,6.14-.36,12.19-1.44,18.09-.67,3.62-2.32,7.55-6.05,9.71,.02-3.65-.4-7.29,.35-10.93,1.16-5.59,1.29-11.42,.24-16.86-2.37-12.28,.41-23.93,4.18-35.12,6.08-18.04,16.98-33.58,28.22-48.81,3.45-4.67,6.75-9.6,7.76-15.56-1.45-.46-2.02,.18-2.68,.68-13.06,9.85-22.14,23.13-31.52,36.2-12.66,17.62-18.77,38.13-26.26,58.05-.32,.85-.17,1.98,.04,2.91,1.52,6.52-.25,12.71-1.52,19.03-.99,4.9-3.4,10.22,1.83,14.65,2.31,1.96,1.55,4.77,.67,7.46-4.01,.19-7.79,.78-11.53-.39-10.16-3.17-16.64-10.46-21.8-19.31-9.9-16.99-6.66-35.6-6.39-53.74,.11-7.07,3.74-13.65,6.39-20.26,2.2-5.51,4.94-10.25,9.6-14.51,4.69-4.29,7.4-10.79,10.82-16.41,5.24-8.63,13.34-14.64,20.06-21.9,8.78-9.48,20.4-15.07,31.28-21.69,4.7-2.86,10.64-3.6,14.2-8.34Zm-62.99,75.86c-.08-1.38,.38-2.51,1.12-3.71,5.63-9.15,11.65-18.05,18.51-26.3,6.34-7.63,12.85-15.1,20.24-21.84,3.37-3.07,7.63-5.71,9.84-9.99-.45-.46-.67-.87-.89-.88-4.92-.1-15.58,7.39-16.82,11.95-.39,1.44-.93,2.52-2.42,2.79-10.01,1.77-14.48,10.74-19.53,17.36-8.73,11.43-17.59,23.07-23.55,36.53-2.58,5.84-5.36,11.65-7.18,17.7-2.01,6.69-4.31,13.49-2.51,20.91,.78,3.21,1.97,4.03,4.56,3.85,3-11.84,5.35-23.56,9.75-34.64,1.43-3.59,2.34-8.1,6.85-9.76,1.51,4.02,2.78,.65,3.57-.31,3.04-3.7,5.5-7.93,8.81-11.35,12.89-13.33,24.93-27.5,38.86-39.82,.85-.75,2.14-1.18,1.01-3.27-2.16,.78-4.31,1.69-6.18,3.32-9.36,8.15-18.11,16.88-26.07,26.42-5.91,7.09-11.98,14.04-17.97,21.05Z'/%3E%3Cpath class='cls-3' d='M299.43,476.59c-3.56,4.74-9.51,5.49-14.2,8.34-10.88,6.62-22.5,12.21-31.28,21.69-6.72,7.26-14.81,13.27-20.06,21.9-3.42,5.63-6.13,12.13-10.82,16.41-4.66,4.26-7.4,9-9.6,14.51-2.64,6.61-6.28,13.19-6.39,20.26-.27,18.14-3.52,36.75,6.39,53.74,5.16,8.85,11.64,16.13,21.8,19.31,3.75,1.17,7.53,.58,11.53,.39,.88-2.69,1.64-5.5-.67-7.46-5.23-4.43-2.81-9.75-1.83-14.65,1.27-6.33,3.04-12.51,1.52-19.03-.22-.93-.36-2.06-.04-2.91,7.49-19.92,13.61-40.42,26.26-58.05,9.39-13.07,18.46-26.36,31.52-36.2,.66-.5,1.23-1.14,2.68-.68-1.01,5.96-4.31,10.89-7.76,15.56-11.24,15.24-22.14,30.77-28.22,48.81-3.77,11.19-6.56,22.84-4.18,35.12,1.05,5.44,.93,11.27-.24,16.86-.76,3.64-.34,7.29-.35,10.93,.15,1.8-.79,3.05-1.9,4.37-5.4,6.43-12.6,9.89-20.31,12.57-16.61,.69-28.21-7.31-35.88-21.36-8.22-15.04-10.03-31.19-8.11-48.15,3.19-28.11,16.15-51.64,33.49-73.08,14.33-17.72,33.87-27.79,54.85-35.42,3.88-1.41,7.66-3.16,11.8-3.77Z'/%3E%3Cpath class='cls-4' d='M452.94,378.88c-7.93-2.9-15.21-5.54-22.49-8.21-6.24-2.29-12.44-4.65-18.71-6.85-1.76-.62-2.89-1.3-2.84-3.42,.11-4.46,.03-8.93,.03-13.52,7.87-1.53,15.55-1.25,23.14-1.84,13.77-1.06,27.57-1.72,41.36-2.48,5.55-.31,7.15,1.24,7.12,6.85-.01,2.45,.47,4.97-.56,7.78-12.13,.64-24.34,1.28-36.56,1.92-.08,.4-.16,.81-.24,1.21,12.29,4.49,24.58,8.97,36.78,13.42q1.08,11.38-9.51,14.88c-8.59,2.85-17.18,5.73-25.62,9.7,11.76,.78,23.52,1.55,35.48,2.34,.1,1.53,.16,2.83,.26,4.12,.57,7.84-.5,10.97-10.37,10.04-20.19-1.89-40.46-2.9-61.28-4.32,0-4.84,.13-9.44-.05-14.03-.11-2.93,2.12-3.06,3.87-3.67,13.11-4.6,26.25-9.12,40.17-13.94Z'/%3E%3Cpath class='cls-4' d='M432.29,131.85c-6.95-5.67-13.91-11.32-20.84-17.01-2.19-1.79-3.91-11.86-2-13.77,2.14-2.14,4.65-3.43,7.76-.67,7.44,6.6,15.12,12.93,22.88,19.52,10.77-7.28,21.36-14.41,31.93-21.58,1.79-1.21,3.25-2.42,5.79-1.09,2.59,1.36,2.55,3.26,2.91,5.65,.9,5.93-1.53,9.35-6.59,12.32-7.71,4.53-14.93,9.89-22.42,14.94,.89,2.79,2.98,2.78,5.15,2.77,5.82-.04,11.64-.07,17.46,0,4.85,.07,6.31,1.99,6.29,7.94-.02,5.48-1.5,7.29-6.37,7.3-19.62,.05-39.24,.05-58.86,0-5.03-.01-6.45-1.84-6.43-7.75,.03-5.74,1.53-7.46,6.73-7.5,5.42-.05,10.85-.01,16.28-.01,.11-.35,.23-.71,.34-1.06Z'/%3E%3Cpath class='cls-4' d='M409.1,301.6c-1.73-5.86,1.23-8.01,6.49-9.7,18.96-6.09,37.75-12.71,56.61-19.1,5.83-1.98,7.92-.08,8.52,6.09,.55,5.64-1.18,8.81-6.87,9.57-.16,.02-.32,.09-.48,.14-13.81,4.61-13.75,4.61-13.25,19.25,.08,2.35,.66,3.55,3.08,4.2,4.32,1.15,8.53,2.72,12.79,4.12,4.26,1.4,6.53,6.83,4.41,11.98-1.65,4.01-4.93,3.87-8.74,2.55-18.5-6.43-37-12.87-55.66-18.8-5.65-1.79-8.79-4.08-6.91-10.31Zm37.51,5.28c.49-3.4,.58-6.24-.03-9.45-4.83,1.27-9.19,2.57-13.91,4.85,5.02,1.65,9.35,3.08,13.94,4.6Z'/%3E%3Cpath class='cls-4' d='M450.55,189.64h16.48c0-7.15-.03-14.1,.01-21.04,.03-5.17,1.74-6.81,6.87-6.78,4.87,.03,6.57,1.64,6.59,6.56,.05,10.15-.03,20.31,.03,30.46,.03,4.42-2.1,6.26-6.43,6.25-19.64-.06-39.28-.04-58.93-.01-4.35,0-6.37-2.09-6.35-6.4,.04-9.65-.04-19.31,.03-28.96,.03-4.65,2.09-6.52,6.8-6.54,4.81-.03,6.78,1.75,6.82,6.4,.07,6.61,.02,13.22,.02,20.06h14.48c0-6.02-.03-11.97,0-17.91,.04-5.3,1.64-6.9,6.76-6.9,5.12,0,6.75,1.6,6.79,6.87,.04,5.8,0,11.61,0,17.95Z'/%3E%3Cpath class='cls-2' d='M243.28,658.37c7.71-2.67,14.91-6.13,20.31-12.57,1.11-1.32,2.05-2.57,1.9-4.37,3.74-2.16,5.39-6.09,6.05-9.71,1.09-5.9,1.41-11.95,1.44-18.09,.06-10.92-1.59-21.88,1.58-32.9,3.47-12.05,9.3-22.52,15.44-33.32,5.19-9.14,13.59-16.16,16.72-26.47,.38-1.27,1.03-2.52,2.75-2.41-1.19,8.55-5.02,16.1-9.41,23.29-6.08,9.94-11.57,19.98-13.74,31.64-1.91,10.32-.44,20.47,.65,30.66,1.69,15.77,1.34,31.21-10.94,43.15-8.03,7.81-17.95,12.33-29.56,12.03-1.14-.03-2.36,.12-3.21-.94Z'/%3E%3Cpath class='cls-4' d='M467.03,243.81c0-7.42-.03-14.21,.01-21,.03-4.82,1.88-6.7,6.47-6.76,5-.07,6.97,1.76,7,6.75,.05,9.98-.03,19.97,.03,29.95,.03,4.39-2.03,6.3-6.38,6.29-19.64-.05-39.27,0-58.91-.05-5.15-.01-6.28-1.57-6.24-7.86,.03-5.39,1.61-7.29,6.39-7.3,16.96-.05,33.93-.02,51.62-.02Z'/%3E%3Cpath class='cls-2' d='M309.44,518.55c.3-1.82-1.27-4.37,1.96-5.06-.27,1.83-.56,3.66-1.96,5.06Z'/%3E%3Cpath class='cls-2' d='M234.42,556.41c-4.51,1.66-5.42,6.17-6.85,9.76-4.41,11.08-6.76,22.8-9.75,34.64-2.59,.18-3.78-.64-4.56-3.85-1.8-7.41,.5-14.22,2.51-20.91,1.82-6.05,4.59-11.86,7.18-17.7,5.96-13.46,14.82-25.1,23.55-36.53,5.06-6.63,9.53-15.59,19.53-17.36,1.49-.26,2.03-1.35,2.42-2.79,1.24-4.56,11.9-12.05,16.82-11.95,.22,0,.44,.42,.89,.88-2.21,4.28-6.48,6.92-9.84,9.99-7.39,6.75-13.9,14.22-20.24,21.84-6.86,8.25-12.88,17.14-18.51,26.3-.74,1.2-1.2,2.34-1.12,3.71-1.26,1.02-1.81,2.41-2.02,3.96Z'/%3E%3Cpath class='cls-3' d='M234.42,556.41c.21-1.56,.76-2.94,2.02-3.96,6-7.01,12.06-13.96,17.97-21.05,7.95-9.54,16.71-18.27,26.07-26.42,1.88-1.63,4.02-2.55,6.18-3.32,1.13,2.09-.16,2.52-1.01,3.27-13.92,12.32-25.97,26.48-38.86,39.82-3.31,3.42-5.77,7.64-8.81,11.35-.79,.97-2.06,4.33-3.57,.31Z'/%3E%3C/svg%3E");
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    transform: scale(0);
+    animation-name: pupup_logo;
+    animation-duration: 1s
+}
+
+@keyframes pupup_logo {
+    0% {
+        transform: scale(0)
+    }
+
+    18% {
+        transform: scale(1)
+    }
+
+    75% {
+        transform: scale(1)
+    }
+
+    95% {
+        transform: scale(0)
+    }
+
+    100% {
+        transform: scale(0)
+    }
+}
+
+@media(max-width: 768px) and (min-width:200px) {
+    #modal_login {
+        margin-top:10%;
+        margin-left: 3%
+    }
+}
+
+.text-muted {
+    color: #fff
+}
+
+.login-title {
+    margin-top: -3px!important;
+    margin-bottom: 30px!important;
+    color: #fff
+}
+
+.login-option,.btn-resend-option {
+    color: var(--main-text-color2);
+    border-color: var(--main-text-color2)
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px var(--main-text-color2);
+    background-color: #f5f5f5
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    border-radius: 1rem 0 0 1rem;
+    background-color: #f5f5f5
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-text-color2)
+}
+
+.form-group label {
+    color: #fff
+}
+
+.store-contact a {
+    /* display: block; */
+    height: 38px;
+    border-radius: 20px 20px 20px 20px!important;
+    direction: ltr;
+    /* border: var(--main-text-color2) solid 1px; */
+    width: 24%;
+    margin: auto;
+    line-height: 2;
+}
+
+.sicon-brand:before, .sicon-social:before, .sicon-whatsapp2:before {
+    color: #37ec09;
+}
+
+.feature-item__icon,.store-feature__icon,body > section.u-white.py-4 > div > div > div > div > div > i,.store-feature .title,.feature.d-flex.flex-column.justify-content-center.align-items-center {
+    margin-bottom: 0;
+    border: none;
+    position: relative;
+    top: 0px;
+    animation: float 4s ease-in-out infinite;
+    transition: all .4s ease;
+    perspective: 1000px;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+footer {
+    padding: 0 8px;
+    display: grid;
+}
+
+.footer-header {
+    background: transparent !important;
+    order: 3;
+    position: relative;
+    top: -70px;
+    margin: -2px 0px -78px 0px;
+    right: 77px;
+}
+
+@media(max-width: 767px) {
+    .footer-header {
+        top: unset;
+        right: 0;
+    }
+}
+
+footer .store-certificate img {
+    max-width: 54px;
+    max-height: 38px;
+    margin-left: 4px
+}
+
+.salla-theme_4 .footer-header .footer-payment .icons {
+    padding: 6px 12px 0 20px;
+    border-radius: 17px
+}
+
+body > footer > div.footer-header > div > div > div > div > div:nth-child(3) > img:nth-child(n+1) {
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 5px;
+    max-height: 21.5px !important;
+}
+
+body.salla-theme_4 .section-header .section--title span {
+    position: relative;
+    right: 3px;
+    /* top: 15px; */
+    color: #fff;
+    padding: 8px 10px 8px 10px;
+    font-weight: 800!important;
+    border-bottom: 1px solid #f1f1f1;
+    box-shadow: 0 2px 5px -3px rgb(0 0 0 / 61%);
+    font-size: .9rem!important;
+    border-radius: 7px!important;
+    padding: 11px 19px 11px 19px;
+}
+
+.feature-item__content {
+    background: #ea2323;
+    overflow: inherit;
+}
+
+body > section.u-white.py-4 > div > div:before {
+    position: relative;
+    content: "سبب اختيارك لنا";
+    display: block;
+    width: 156px;
+    height: 44px;
+    margin: 1px 0 6px 0;
+    top: -12px !important;
+    position: relative;
+    right: 3px;
+    /* top: 15px; */
+    color: #fff;
+    padding: 8px 10px 8px 10px;
+    font-weight: 800!important;
+    border-bottom: 1px solid #f1f1f1;
+    box-shadow: 0 2px 5px -3px rgb(0 0 0 / 61%);
+    font-size: .9rem!important;
+    border-radius: 7px!important;
+    padding: 11px 19px 11px 19px;
+}
+
+.footer-main {
+    background: linear-gradient(90deg,transparent,var(--main-color),var(--main-text-color2)),url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 481.21 765.21'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23fff; %7D .cls-2 %7B fill: %23efc69c; %7D .cls-3 %7B fill: %23dbae7d; %7D .cls-4 %7B fill: %23f4d6bb; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M409.14,38.23H38.8c0,3.99,0,7.78,0,11.56-.03,50.95-.05,101.9-.08,152.85,0,6.14-1.22,7.39-7.21,7.41-8.15,.03-16.3-.08-24.45,.04-4.57,.07-6.69-1.82-6.69-6.51C.27,152.31-.06,101.04,.09,49.76,.13,35.96,.35,22.16,0,8.36-.15,2.17,1.87,.2,7.85,.2,147.88,.12,287.9,.02,427.93,0c14.81,0,29.61,.5,44.42,.65,4.59,.05,6.73,2.16,6.61,6.69-.1,3.72,.34,7.16-2.96,10.45-44.74,44.5-89.28,89.19-133.89,133.82-62.74,62.76-125.5,125.5-188.25,188.25-36.97,36.97-73.93,73.95-110.94,110.87-2.11,2.1-3.29,4.12-3.29,7.31,.1,87.25,.08,174.5,.08,261.74v4.21H440.39c1.04-1.58,.57-3.29,.57-4.9,.03-37.63,.02-75.26,.02-112.89,0-53.43,0-106.86,0-160.29,0-6.79,1.3-8.06,8.19-8.07,7.32,0,14.64-.01,21.97,0,6.87,.01,8.16,1.28,8.16,8.07,0,76.76,0,153.52,0,230.28,0,26.47,.06,52.95,.07,79.42,0,7.28-1.52,8.68-8.65,8.83-42.95,.91-85.91,.37-128.86,.43-106.24,.16-212.47,.23-318.71,.25-4.95,0-9.98,.47-14.89-.7-6.32-1.51-7.32-2.75-7.3-9.12,.13-38.62,.35-77.23,.4-115.85,.07-62.25,.05-124.51-.05-186.76,0-4.3,1.22-7.47,4.29-10.53,54.23-54.09,108.36-108.27,162.52-162.42,67.93-67.93,135.87-135.86,203.79-203.8,11.18-11.18,22.31-22.42,33.46-33.64,1.14-1.15,2.21-2.38,3.76-4.05Z'/%3E%3Cpath class='cls-2' d='M299.43,476.59c7.14-2.75,14.65-3.81,22.16-4.93,4.07-.61,5.65,.86,4.87,4.79-.94,4.71-2.12,9.42-4.49,13.59-4.28,7.5-7.55,15.4-10.56,23.45-3.23,.69-1.66,3.24-1.96,5.06,0,0,.03,0,.03,0-1.72-.11-2.36,1.15-2.75,2.41-3.13,10.31-11.53,17.33-16.72,26.47-6.13,10.8-11.97,21.27-15.44,33.32-3.17,11.01-1.52,21.98-1.58,32.9-.03,6.14-.36,12.19-1.44,18.09-.67,3.62-2.32,7.55-6.05,9.71,.02-3.65-.4-7.29,.35-10.93,1.16-5.59,1.29-11.42,.24-16.86-2.37-12.28,.41-23.93,4.18-35.12,6.08-18.04,16.98-33.58,28.22-48.81,3.45-4.67,6.75-9.6,7.76-15.56-1.45-.46-2.02,.18-2.68,.68-13.06,9.85-22.14,23.13-31.52,36.2-12.66,17.62-18.77,38.13-26.26,58.05-.32,.85-.17,1.98,.04,2.91,1.52,6.52-.25,12.71-1.52,19.03-.99,4.9-3.4,10.22,1.83,14.65,2.31,1.96,1.55,4.77,.67,7.46-4.01,.19-7.79,.78-11.53-.39-10.16-3.17-16.64-10.46-21.8-19.31-9.9-16.99-6.66-35.6-6.39-53.74,.11-7.07,3.74-13.65,6.39-20.26,2.2-5.51,4.94-10.25,9.6-14.51,4.69-4.29,7.4-10.79,10.82-16.41,5.24-8.63,13.34-14.64,20.06-21.9,8.78-9.48,20.4-15.07,31.28-21.69,4.7-2.86,10.64-3.6,14.2-8.34Zm-62.99,75.86c-.08-1.38,.38-2.51,1.12-3.71,5.63-9.15,11.65-18.05,18.51-26.3,6.34-7.63,12.85-15.1,20.24-21.84,3.37-3.07,7.63-5.71,9.84-9.99-.45-.46-.67-.87-.89-.88-4.92-.1-15.58,7.39-16.82,11.95-.39,1.44-.93,2.52-2.42,2.79-10.01,1.77-14.48,10.74-19.53,17.36-8.73,11.43-17.59,23.07-23.55,36.53-2.58,5.84-5.36,11.65-7.18,17.7-2.01,6.69-4.31,13.49-2.51,20.91,.78,3.21,1.97,4.03,4.56,3.85,3-11.84,5.35-23.56,9.75-34.64,1.43-3.59,2.34-8.1,6.85-9.76,1.51,4.02,2.78,.65,3.57-.31,3.04-3.7,5.5-7.93,8.81-11.35,12.89-13.33,24.93-27.5,38.86-39.82,.85-.75,2.14-1.18,1.01-3.27-2.16,.78-4.31,1.69-6.18,3.32-9.36,8.15-18.11,16.88-26.07,26.42-5.91,7.09-11.98,14.04-17.97,21.05Z'/%3E%3Cpath class='cls-4' d='M299.43,476.59c-3.56,4.74-9.51,5.49-14.2,8.34-10.88,6.62-22.5,12.21-31.28,21.69-6.72,7.26-14.81,13.27-20.06,21.9-3.42,5.63-6.13,12.13-10.82,16.41-4.66,4.26-7.4,9-9.6,14.51-2.64,6.61-6.28,13.19-6.39,20.26-.27,18.14-3.52,36.75,6.39,53.74,5.16,8.85,11.64,16.13,21.8,19.31,3.75,1.17,7.53,.58,11.53,.39,.88-2.69,1.64-5.5-.67-7.46-5.23-4.43-2.81-9.75-1.83-14.65,1.27-6.33,3.04-12.51,1.52-19.03-.22-.93-.36-2.06-.04-2.91,7.49-19.92,13.61-40.42,26.26-58.05,9.39-13.07,18.46-26.36,31.52-36.2,.66-.5,1.23-1.14,2.68-.68-1.01,5.96-4.31,10.89-7.76,15.56-11.24,15.24-22.14,30.77-28.22,48.81-3.77,11.19-6.56,22.84-4.18,35.12,1.05,5.44,.93,11.27-.24,16.86-.76,3.64-.34,7.29-.35,10.93,.15,1.8-.79,3.05-1.9,4.37-5.4,6.43-12.6,9.89-20.31,12.57-16.61,.69-28.21-7.31-35.88-21.36-8.22-15.04-10.03-31.19-8.11-48.15,3.19-28.11,16.15-51.64,33.49-73.08,14.33-17.72,33.87-27.79,54.85-35.42,3.88-1.41,7.66-3.16,11.8-3.77Z'/%3E%3Cpath class='cls-1' d='M452.94,378.88c-7.93-2.9-15.21-5.54-22.49-8.21-6.24-2.29-12.44-4.65-18.71-6.85-1.76-.62-2.89-1.3-2.84-3.42,.11-4.46,.03-8.93,.03-13.52,7.87-1.53,15.55-1.25,23.14-1.84,13.77-1.06,27.57-1.72,41.36-2.48,5.55-.31,7.15,1.24,7.12,6.85-.01,2.45,.47,4.97-.56,7.78-12.13,.64-24.34,1.28-36.56,1.92-.08,.4-.16,.81-.24,1.21,12.29,4.49,24.58,8.97,36.78,13.42q1.08,11.38-9.51,14.88c-8.59,2.85-17.18,5.73-25.62,9.7,11.76,.78,23.52,1.55,35.48,2.34,.1,1.53,.16,2.83,.26,4.12,.57,7.84-.5,10.97-10.37,10.04-20.19-1.89-40.46-2.9-61.28-4.32,0-4.84,.13-9.44-.05-14.03-.11-2.93,2.12-3.06,3.87-3.67,13.11-4.6,26.25-9.12,40.17-13.94Z'/%3E%3Cpath class='cls-1' d='M432.29,131.85c-6.95-5.67-13.91-11.32-20.84-17.01-2.19-1.79-3.91-11.86-2-13.77,2.14-2.14,4.65-3.43,7.76-.67,7.44,6.6,15.12,12.93,22.88,19.52,10.77-7.28,21.36-14.41,31.93-21.58,1.79-1.21,3.25-2.42,5.79-1.09,2.59,1.36,2.55,3.26,2.91,5.65,.9,5.93-1.53,9.35-6.59,12.32-7.71,4.53-14.93,9.89-22.42,14.94,.89,2.79,2.98,2.78,5.15,2.77,5.82-.04,11.64-.07,17.46,0,4.85,.07,6.31,1.99,6.29,7.94-.02,5.48-1.5,7.29-6.37,7.3-19.62,.05-39.24,.05-58.86,0-5.03-.01-6.45-1.84-6.43-7.75,.03-5.74,1.53-7.46,6.73-7.5,5.42-.05,10.85-.01,16.28-.01,.11-.35,.23-.71,.34-1.06Z'/%3E%3Cpath class='cls-1' d='M409.1,301.6c-1.73-5.86,1.23-8.01,6.49-9.7,18.96-6.09,37.75-12.71,56.61-19.1,5.83-1.98,7.92-.08,8.52,6.09,.55,5.64-1.18,8.81-6.87,9.57-.16,.02-.32,.09-.48,.14-13.81,4.61-13.75,4.61-13.25,19.25,.08,2.35,.66,3.55,3.08,4.2,4.32,1.15,8.53,2.72,12.79,4.12,4.26,1.4,6.53,6.83,4.41,11.98-1.65,4.01-4.93,3.87-8.74,2.55-18.5-6.43-37-12.87-55.66-18.8-5.65-1.79-8.79-4.08-6.91-10.31Zm37.51,5.28c.49-3.4,.58-6.24-.03-9.45-4.83,1.27-9.19,2.57-13.91,4.85,5.02,1.65,9.35,3.08,13.94,4.6Z'/%3E%3Cpath class='cls-1' d='M450.55,189.64h16.48c0-7.15-.03-14.1,.01-21.04,.03-5.17,1.74-6.81,6.87-6.78,4.87,.03,6.57,1.64,6.59,6.56,.05,10.15-.03,20.31,.03,30.46,.03,4.42-2.1,6.26-6.43,6.25-19.64-.06-39.28-.04-58.93-.01-4.35,0-6.37-2.09-6.35-6.4,.04-9.65-.04-19.31,.03-28.96,.03-4.65,2.09-6.52,6.8-6.54,4.81-.03,6.78,1.75,6.82,6.4,.07,6.61,.02,13.22,.02,20.06h14.48c0-6.02-.03-11.97,0-17.91,.04-5.3,1.64-6.9,6.76-6.9,5.12,0,6.75,1.6,6.79,6.87,.04,5.8,0,11.61,0,17.95Z'/%3E%3Cpath class='cls-3' d='M243.28,658.37c7.71-2.67,14.91-6.13,20.31-12.57,1.11-1.32,2.05-2.57,1.9-4.37,3.74-2.16,5.39-6.09,6.05-9.71,1.09-5.9,1.41-11.95,1.44-18.09,.06-10.92-1.59-21.88,1.58-32.9,3.47-12.05,9.3-22.52,15.44-33.32,5.19-9.14,13.59-16.16,16.72-26.47,.38-1.27,1.03-2.52,2.75-2.41-1.19,8.55-5.02,16.1-9.41,23.29-6.08,9.94-11.57,19.98-13.74,31.64-1.91,10.32-.44,20.47,.65,30.66,1.69,15.77,1.34,31.21-10.94,43.15-8.03,7.81-17.95,12.33-29.56,12.03-1.14-.03-2.36,.12-3.21-.94Z'/%3E%3Cpath class='cls-1' d='M467.03,243.81c0-7.42-.03-14.21,.01-21,.03-4.82,1.88-6.7,6.47-6.76,5-.07,6.97,1.76,7,6.75,.05,9.98-.03,19.97,.03,29.95,.03,4.39-2.03,6.3-6.38,6.29-19.64-.05-39.27,0-58.91-.05-5.15-.01-6.28-1.57-6.24-7.86,.03-5.39,1.61-7.29,6.39-7.3,16.96-.05,33.93-.02,51.62-.02Z'/%3E%3Cpath class='cls-3' d='M309.44,518.55c.3-1.82-1.27-4.37,1.96-5.06-.27,1.83-.56,3.66-1.96,5.06Z'/%3E%3Cpath class='cls-3' d='M234.42,556.41c-4.51,1.66-5.42,6.17-6.85,9.76-4.41,11.08-6.76,22.8-9.75,34.64-2.59,.18-3.78-.64-4.56-3.85-1.8-7.41,.5-14.22,2.51-20.91,1.82-6.05,4.59-11.86,7.18-17.7,5.96-13.46,14.82-25.1,23.55-36.53,5.06-6.63,9.53-15.59,19.53-17.36,1.49-.26,2.03-1.35,2.42-2.79,1.24-4.56,11.9-12.05,16.82-11.95,.22,0,.44,.42,.89,.88-2.21,4.28-6.48,6.92-9.84,9.99-7.39,6.75-13.9,14.22-20.24,21.84-6.86,8.25-12.88,17.14-18.51,26.3-.74,1.2-1.2,2.34-1.12,3.71-1.26,1.02-1.81,2.41-2.02,3.96Z'/%3E%3Cpath class='cls-4' d='M234.42,556.41c.21-1.56,.76-2.94,2.02-3.96,6-7.01,12.06-13.96,17.97-21.05,7.95-9.54,16.71-18.27,26.07-26.42,1.88-1.63,4.02-2.55,6.18-3.32,1.13,2.09-.16,2.52-1.01,3.27-13.92,12.32-25.97,26.48-38.86,39.82-3.31,3.42-5.77,7.64-8.81,11.35-.79,.97-2.06,4.33-3.57,.31Z'/%3E%3C/svg%3E");
+    background-color: var(--main-color)!important;
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    animation: gradient 11s ease infinite!important
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0%50%
+    }
+
+    50% {
+        background-position: 100%50%
+    }
+
+    100% {
+        background-position: 0%50%
+    }
+}
+
+p.mb-4.mb-md-0,body > footer > div.footer-sub.text-center > div > div > div > p,span.font-13 *,span.font-13 {
+    color: #fff!important;
+}
+
+@media screen and (max-width: 777px) {
+    body > footer > div.footer-sub.text-center > div > div > div > p {
+        max-height: 22px!important;
+        line-height: 14px!important;
+        overflow: hidden!important;
+        font-size: 0px;
+    }
+}
+
+.footer-sub p:before {
+    content: "  الحقوق محفوظة     jmalekshop © 2022  ";
+    display: block;
+    max-height: 30px!important;
+    color: #fff;
+    text-align: center;
+}
+
+span.not-available::after {
+    content: "\1F494";
+    animation: beatHeart 1s;
+    animation: .8s infinite beatHeart;
+}
+
+@keyframes beatHeart {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.1);
+    }
+
+    40% {
+        transform: scale(1);
+    }
+
+    60% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.product-footer .not-available {
+    display: flex!important;
+    margin: 10px 0 0 15px;
+    font-size: 14px;
+    content: "/a";
+    flex-direction: column;
+}
+
+.logo img {
+    width: auto;
+    height: 0 !important;
+}
+
+.logo a {
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 481.21 765.21'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %23fff; %7D .cls-2 %7B fill: %23efc69c; %7D .cls-3 %7B fill: %23dbae7d; %7D .cls-4 %7B fill: %23f4d6bb; %7D %3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M409.14,38.23H38.8c0,3.99,0,7.78,0,11.56-.03,50.95-.05,101.9-.08,152.85,0,6.14-1.22,7.39-7.21,7.41-8.15,.03-16.3-.08-24.45,.04-4.57,.07-6.69-1.82-6.69-6.51C.27,152.31-.06,101.04,.09,49.76,.13,35.96,.35,22.16,0,8.36-.15,2.17,1.87,.2,7.85,.2,147.88,.12,287.9,.02,427.93,0c14.81,0,29.61,.5,44.42,.65,4.59,.05,6.73,2.16,6.61,6.69-.1,3.72,.34,7.16-2.96,10.45-44.74,44.5-89.28,89.19-133.89,133.82-62.74,62.76-125.5,125.5-188.25,188.25-36.97,36.97-73.93,73.95-110.94,110.87-2.11,2.1-3.29,4.12-3.29,7.31,.1,87.25,.08,174.5,.08,261.74v4.21H440.39c1.04-1.58,.57-3.29,.57-4.9,.03-37.63,.02-75.26,.02-112.89,0-53.43,0-106.86,0-160.29,0-6.79,1.3-8.06,8.19-8.07,7.32,0,14.64-.01,21.97,0,6.87,.01,8.16,1.28,8.16,8.07,0,76.76,0,153.52,0,230.28,0,26.47,.06,52.95,.07,79.42,0,7.28-1.52,8.68-8.65,8.83-42.95,.91-85.91,.37-128.86,.43-106.24,.16-212.47,.23-318.71,.25-4.95,0-9.98,.47-14.89-.7-6.32-1.51-7.32-2.75-7.3-9.12,.13-38.62,.35-77.23,.4-115.85,.07-62.25,.05-124.51-.05-186.76,0-4.3,1.22-7.47,4.29-10.53,54.23-54.09,108.36-108.27,162.52-162.42,67.93-67.93,135.87-135.86,203.79-203.8,11.18-11.18,22.31-22.42,33.46-33.64,1.14-1.15,2.21-2.38,3.76-4.05Z'/%3E%3Cpath class='cls-2' d='M299.43,476.59c7.14-2.75,14.65-3.81,22.16-4.93,4.07-.61,5.65,.86,4.87,4.79-.94,4.71-2.12,9.42-4.49,13.59-4.28,7.5-7.55,15.4-10.56,23.45-3.23,.69-1.66,3.24-1.96,5.06,0,0,.03,0,.03,0-1.72-.11-2.36,1.15-2.75,2.41-3.13,10.31-11.53,17.33-16.72,26.47-6.13,10.8-11.97,21.27-15.44,33.32-3.17,11.01-1.52,21.98-1.58,32.9-.03,6.14-.36,12.19-1.44,18.09-.67,3.62-2.32,7.55-6.05,9.71,.02-3.65-.4-7.29,.35-10.93,1.16-5.59,1.29-11.42,.24-16.86-2.37-12.28,.41-23.93,4.18-35.12,6.08-18.04,16.98-33.58,28.22-48.81,3.45-4.67,6.75-9.6,7.76-15.56-1.45-.46-2.02,.18-2.68,.68-13.06,9.85-22.14,23.13-31.52,36.2-12.66,17.62-18.77,38.13-26.26,58.05-.32,.85-.17,1.98,.04,2.91,1.52,6.52-.25,12.71-1.52,19.03-.99,4.9-3.4,10.22,1.83,14.65,2.31,1.96,1.55,4.77,.67,7.46-4.01,.19-7.79,.78-11.53-.39-10.16-3.17-16.64-10.46-21.8-19.31-9.9-16.99-6.66-35.6-6.39-53.74,.11-7.07,3.74-13.65,6.39-20.26,2.2-5.51,4.94-10.25,9.6-14.51,4.69-4.29,7.4-10.79,10.82-16.41,5.24-8.63,13.34-14.64,20.06-21.9,8.78-9.48,20.4-15.07,31.28-21.69,4.7-2.86,10.64-3.6,14.2-8.34Zm-62.99,75.86c-.08-1.38,.38-2.51,1.12-3.71,5.63-9.15,11.65-18.05,18.51-26.3,6.34-7.63,12.85-15.1,20.24-21.84,3.37-3.07,7.63-5.71,9.84-9.99-.45-.46-.67-.87-.89-.88-4.92-.1-15.58,7.39-16.82,11.95-.39,1.44-.93,2.52-2.42,2.79-10.01,1.77-14.48,10.74-19.53,17.36-8.73,11.43-17.59,23.07-23.55,36.53-2.58,5.84-5.36,11.65-7.18,17.7-2.01,6.69-4.31,13.49-2.51,20.91,.78,3.21,1.97,4.03,4.56,3.85,3-11.84,5.35-23.56,9.75-34.64,1.43-3.59,2.34-8.1,6.85-9.76,1.51,4.02,2.78,.65,3.57-.31,3.04-3.7,5.5-7.93,8.81-11.35,12.89-13.33,24.93-27.5,38.86-39.82,.85-.75,2.14-1.18,1.01-3.27-2.16,.78-4.31,1.69-6.18,3.32-9.36,8.15-18.11,16.88-26.07,26.42-5.91,7.09-11.98,14.04-17.97,21.05Z'/%3E%3Cpath class='cls-4' d='M299.43,476.59c-3.56,4.74-9.51,5.49-14.2,8.34-10.88,6.62-22.5,12.21-31.28,21.69-6.72,7.26-14.81,13.27-20.06,21.9-3.42,5.63-6.13,12.13-10.82,16.41-4.66,4.26-7.4,9-9.6,14.51-2.64,6.61-6.28,13.19-6.39,20.26-.27,18.14-3.52,36.75,6.39,53.74,5.16,8.85,11.64,16.13,21.8,19.31,3.75,1.17,7.53,.58,11.53,.39,.88-2.69,1.64-5.5-.67-7.46-5.23-4.43-2.81-9.75-1.83-14.65,1.27-6.33,3.04-12.51,1.52-19.03-.22-.93-.36-2.06-.04-2.91,7.49-19.92,13.61-40.42,26.26-58.05,9.39-13.07,18.46-26.36,31.52-36.2,.66-.5,1.23-1.14,2.68-.68-1.01,5.96-4.31,10.89-7.76,15.56-11.24,15.24-22.14,30.77-28.22,48.81-3.77,11.19-6.56,22.84-4.18,35.12,1.05,5.44,.93,11.27-.24,16.86-.76,3.64-.34,7.29-.35,10.93,.15,1.8-.79,3.05-1.9,4.37-5.4,6.43-12.6,9.89-20.31,12.57-16.61,.69-28.21-7.31-35.88-21.36-8.22-15.04-10.03-31.19-8.11-48.15,3.19-28.11,16.15-51.64,33.49-73.08,14.33-17.72,33.87-27.79,54.85-35.42,3.88-1.41,7.66-3.16,11.8-3.77Z'/%3E%3Cpath class='cls-1' d='M452.94,378.88c-7.93-2.9-15.21-5.54-22.49-8.21-6.24-2.29-12.44-4.65-18.71-6.85-1.76-.62-2.89-1.3-2.84-3.42,.11-4.46,.03-8.93,.03-13.52,7.87-1.53,15.55-1.25,23.14-1.84,13.77-1.06,27.57-1.72,41.36-2.48,5.55-.31,7.15,1.24,7.12,6.85-.01,2.45,.47,4.97-.56,7.78-12.13,.64-24.34,1.28-36.56,1.92-.08,.4-.16,.81-.24,1.21,12.29,4.49,24.58,8.97,36.78,13.42q1.08,11.38-9.51,14.88c-8.59,2.85-17.18,5.73-25.62,9.7,11.76,.78,23.52,1.55,35.48,2.34,.1,1.53,.16,2.83,.26,4.12,.57,7.84-.5,10.97-10.37,10.04-20.19-1.89-40.46-2.9-61.28-4.32,0-4.84,.13-9.44-.05-14.03-.11-2.93,2.12-3.06,3.87-3.67,13.11-4.6,26.25-9.12,40.17-13.94Z'/%3E%3Cpath class='cls-1' d='M432.29,131.85c-6.95-5.67-13.91-11.32-20.84-17.01-2.19-1.79-3.91-11.86-2-13.77,2.14-2.14,4.65-3.43,7.76-.67,7.44,6.6,15.12,12.93,22.88,19.52,10.77-7.28,21.36-14.41,31.93-21.58,1.79-1.21,3.25-2.42,5.79-1.09,2.59,1.36,2.55,3.26,2.91,5.65,.9,5.93-1.53,9.35-6.59,12.32-7.71,4.53-14.93,9.89-22.42,14.94,.89,2.79,2.98,2.78,5.15,2.77,5.82-.04,11.64-.07,17.46,0,4.85,.07,6.31,1.99,6.29,7.94-.02,5.48-1.5,7.29-6.37,7.3-19.62,.05-39.24,.05-58.86,0-5.03-.01-6.45-1.84-6.43-7.75,.03-5.74,1.53-7.46,6.73-7.5,5.42-.05,10.85-.01,16.28-.01,.11-.35,.23-.71,.34-1.06Z'/%3E%3Cpath class='cls-1' d='M409.1,301.6c-1.73-5.86,1.23-8.01,6.49-9.7,18.96-6.09,37.75-12.71,56.61-19.1,5.83-1.98,7.92-.08,8.52,6.09,.55,5.64-1.18,8.81-6.87,9.57-.16,.02-.32,.09-.48,.14-13.81,4.61-13.75,4.61-13.25,19.25,.08,2.35,.66,3.55,3.08,4.2,4.32,1.15,8.53,2.72,12.79,4.12,4.26,1.4,6.53,6.83,4.41,11.98-1.65,4.01-4.93,3.87-8.74,2.55-18.5-6.43-37-12.87-55.66-18.8-5.65-1.79-8.79-4.08-6.91-10.31Zm37.51,5.28c.49-3.4,.58-6.24-.03-9.45-4.83,1.27-9.19,2.57-13.91,4.85,5.02,1.65,9.35,3.08,13.94,4.6Z'/%3E%3Cpath class='cls-1' d='M450.55,189.64h16.48c0-7.15-.03-14.1,.01-21.04,.03-5.17,1.74-6.81,6.87-6.78,4.87,.03,6.57,1.64,6.59,6.56,.05,10.15-.03,20.31,.03,30.46,.03,4.42-2.1,6.26-6.43,6.25-19.64-.06-39.28-.04-58.93-.01-4.35,0-6.37-2.09-6.35-6.4,.04-9.65-.04-19.31,.03-28.96,.03-4.65,2.09-6.52,6.8-6.54,4.81-.03,6.78,1.75,6.82,6.4,.07,6.61,.02,13.22,.02,20.06h14.48c0-6.02-.03-11.97,0-17.91,.04-5.3,1.64-6.9,6.76-6.9,5.12,0,6.75,1.6,6.79,6.87,.04,5.8,0,11.61,0,17.95Z'/%3E%3Cpath class='cls-3' d='M243.28,658.37c7.71-2.67,14.91-6.13,20.31-12.57,1.11-1.32,2.05-2.57,1.9-4.37,3.74-2.16,5.39-6.09,6.05-9.71,1.09-5.9,1.41-11.95,1.44-18.09,.06-10.92-1.59-21.88,1.58-32.9,3.47-12.05,9.3-22.52,15.44-33.32,5.19-9.14,13.59-16.16,16.72-26.47,.38-1.27,1.03-2.52,2.75-2.41-1.19,8.55-5.02,16.1-9.41,23.29-6.08,9.94-11.57,19.98-13.74,31.64-1.91,10.32-.44,20.47,.65,30.66,1.69,15.77,1.34,31.21-10.94,43.15-8.03,7.81-17.95,12.33-29.56,12.03-1.14-.03-2.36,.12-3.21-.94Z'/%3E%3Cpath class='cls-1' d='M467.03,243.81c0-7.42-.03-14.21,.01-21,.03-4.82,1.88-6.7,6.47-6.76,5-.07,6.97,1.76,7,6.75,.05,9.98-.03,19.97,.03,29.95,.03,4.39-2.03,6.3-6.38,6.29-19.64-.05-39.27,0-58.91-.05-5.15-.01-6.28-1.57-6.24-7.86,.03-5.39,1.61-7.29,6.39-7.3,16.96-.05,33.93-.02,51.62-.02Z'/%3E%3Cpath class='cls-3' d='M309.44,518.55c.3-1.82-1.27-4.37,1.96-5.06-.27,1.83-.56,3.66-1.96,5.06Z'/%3E%3Cpath class='cls-3' d='M234.42,556.41c-4.51,1.66-5.42,6.17-6.85,9.76-4.41,11.08-6.76,22.8-9.75,34.64-2.59,.18-3.78-.64-4.56-3.85-1.8-7.41,.5-14.22,2.51-20.91,1.82-6.05,4.59-11.86,7.18-17.7,5.96-13.46,14.82-25.1,23.55-36.53,5.06-6.63,9.53-15.59,19.53-17.36,1.49-.26,2.03-1.35,2.42-2.79,1.24-4.56,11.9-12.05,16.82-11.95,.22,0,.44,.42,.89,.88-2.21,4.28-6.48,6.92-9.84,9.99-7.39,6.75-13.9,14.22-20.24,21.84-6.86,8.25-12.88,17.14-18.51,26.3-.74,1.2-1.2,2.34-1.12,3.71-1.26,1.02-1.81,2.41-2.02,3.96Z'/%3E%3Cpath class='cls-4' d='M234.42,556.41c.21-1.56,.76-2.94,2.02-3.96,6-7.01,12.06-13.96,17.97-21.05,7.95-9.54,16.71-18.27,26.07-26.42,1.88-1.63,4.02-2.55,6.18-3.32,1.13,2.09-.16,2.52-1.01,3.27-13.92,12.32-25.97,26.48-38.86,39.82-3.31,3.42-5.77,7.64-8.81,11.35-.79,.97-2.06,4.33-3.57,.31Z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 41px;
+    width: 28px;
+    display: block;
+}
