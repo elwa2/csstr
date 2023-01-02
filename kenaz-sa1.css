@@ -203,3 +203,7 @@ section.section {
     text-align: left;
     font-weight: unset;
 }
+html body {
+   
+    display: inline-flex !important;
+}
