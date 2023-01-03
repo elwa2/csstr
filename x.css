@@ -2759,32 +2759,32 @@ body > section:nth-child(63) .category-grid {
     margin: 15px 0px;
 }
 
-body > section:nth-child(n+61) .category-grid > div .category-featured, body > section:nth-child(n+61) .category-grid, body > section:nth-child(n+61) .category-grid, body > section:nth-of-type(n+64) .category-grid > div .category-featured {
+body > section:nth-child(n+65) .category-grid > div .category-featured, body > section:nth-child(n+65) .category-grid, body > section:nth-child(n+65) .category-grid, body > section:nth-of-type(n+64) .category-grid > div .category-featured {
     display: flex;
     margin: 0px 0px 1px;
     z-index: 0;
     height: 159px !important;
 }
 
-body > section:nth-child(n+61) .category-grid > div .category-featured:hover {
+body > section:nth-child(n+65) .category-grid > div .category-featured:hover {
     transform: unset;
     filter: none;
 }
 
-body > section:nth-child(n+61) .category-grid > div .category-featured a img, body > section:nth-of-type(n+55) .category-grid > div .category-featured img.cat-featured-img {
+body > section:nth-child(n+65) .category-grid > div .category-featured a img, body > section:nth-of-type(n+55) .category-grid > div .category-featured img.cat-featured-img {
     display: unset;
 }
 
 @media only screen and (max-width: 850px) {
-    body > section:nth-child(n+61) .category-grid > div {
+    body > section:nth-child(n+65) .category-grid > div {
         width: 47% !important;
     }
 
-    body > section:nth-child(n+61) .category-grid > div .category-featured, body > section:nth-child(n+61) .category-grid, body > section:nth-child(n+61) .category-grid, body > section:nth-of-type(n+64) .category-grid > div .category-featured {
+    body > section:nth-child(n+65) .category-grid > div .category-featured, body > section:nth-child(n+65) .category-grid, body > section:nth-child(n+65) .category-grid, body > section:nth-of-type(n+64) .category-grid > div .category-featured {
         margin: 0px 0px 186px;
     }
 }
 
-body > section:nth-child(60).u-light.py-5.text-center,body > section:nth-child(62).u-light.py-5.text-center,body > section:nth-child(61).u-light.py-5.text-center {
+body > section:nth-child(60).u-light.py-5.text-center,body > section:nth-child(62).u-light.py-5.text-center,body > section:nth-child(61).u-light.py-5.text-center,body > section:nth-child(63).u-light.py-5.text-center {
     display: none
 }
