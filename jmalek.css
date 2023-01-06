@@ -1148,13 +1148,13 @@ p.mb-4.mb-md-0,body > footer > div.footer-sub.text-center > div > div > div > p 
     color: var(--color-main-l);
 }
 
-body > footer > div.footer-sub.text-center::after {
+/*body > footer > div.footer-sub.text-center::after {
     content: "تصميم وبرمجة " " | " "على احمد 3lwaaa@gmail.com ";
     display: block;
     max-height: 30px!important;
     color: #fefefe;
     font-size: 10px;
-}
+}*/
 
 .salla-theme_6 .product .product-footer .product-add.add_to_cart_btn {
     border-radius: 10px;
