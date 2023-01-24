@@ -2785,6 +2785,6 @@ body > section:nth-child(n+60) .category-grid > div .category-featured a img, bo
     }
 }
 
-body > section:nth-child(60).u-light.py-5.text-center,body > section:nth-child(62).u-light.py-5.text-center,body > section:nth-child(61).u-light.py-5.text-center,body > section:nth-child(63).u-light.py-5.text-center {
+body > section:nth-child(59).u-light.py-5.text-center,body > section:nth-child(60).u-light.py-5.text-center,body > section:nth-child(62).u-light.py-5.text-center,body > section:nth-child(61).u-light.py-5.text-center,body > section:nth-child(63).u-light.py-5.text-center {
     display: none
 }
