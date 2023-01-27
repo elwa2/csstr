@@ -1,4 +1,4 @@
-/* develope By Package +201002241591  3lwaaa@gmail.com - https://wa.me/201002241591 */ 
+/* develope By Package +201002241591  3lwaaa@gmail.com - https://wa.me/201002241591 */
 .header-block--nav-wrapper {
     padding: 0;
     --color-text: #5c6d6b;
@@ -53,7 +53,7 @@ section.home-block.home-block--fixed-banner:nth-of-type(-n+4) .container,body > 
 
 @media (max-width: 780px) {
     .home-block:not(.home-block--bg):not(.home-block--main-slider) {
-        padding: 0;
+        padding: 0 0 8px 0;
     }
 }
 
@@ -196,4 +196,9 @@ section.home-block.home-block--fixed-banner:nth-of-type(-n+4) .container,body > 
     .home-block--square-images figcaption:after {
         display: none!important;
     }
+}
+
+figure.banner-effect-1:before {
+    
+    display: none;
 }
