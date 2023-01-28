@@ -41,9 +41,12 @@ section.home-block.home-block--main-slider:nth-of-type(3) .hero.no-p .container 
 
 section.home-block.home-block--fixed-banner:nth-of-type(-n+4) .container,body > section:nth-child(n+19).home-block.home-block--fixed-banner .container {
     max-width: unset;
-    padding: 0;
     border-radius: 0;
     margin: 0;
+}
+
+body > section > div > div > div.col-sm-12 {
+    padding: 0!important;
 }
 
 .home-block {
