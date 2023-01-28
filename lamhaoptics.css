@@ -199,6 +199,41 @@ section.home-block.home-block--fixed-banner:nth-of-type(-n+4) .container,body > 
 }
 
 figure.banner-effect-1:before {
-    
     display: none;
+}
+
+@media (max-width: 991px) {
+    .home-block--slide-products .splide__slide {
+        padding: unset;
+        width: 40vw!important;
+    }
+
+    .product-block .product-block__info {
+        padding: 0 5px;
+        text-align: right;
+    }
+
+    .product-block .product-block__info * {
+        line-height: 1.2;
+        /*! margin-top: -5px; */
+    }
+
+    .price-wrapper {
+        line-height: 0.8!important;
+    }
+
+    .product-block__info .product-title * {
+        display: block;
+        line-height: 1.35!important;
+    }
+
+    .product-block .product-block__info h2 {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        line-height: normal;
+        width: 100%;
+        color: #000!important;
+        font-size: 0.75rem
+    }
 }
