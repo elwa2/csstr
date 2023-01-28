@@ -203,9 +203,29 @@ figure.banner-effect-1:before {
 }
 
 @media (max-width: 991px) {
+    .sta-product .badge, .product-block .product-block__thumb .badge.badge--ribbon {
+        top: 10px;
+        left: 10px;
+        border-radius: unset;
+        background: rgba(255, 255, 255, 0.8);
+        border: 1px solid #000;
+        color: #000;
+        font-size: 0.7rem;
+        padding: 0 5px;
+        line-height: 1.5
+    }
+
+    .sta-product .badge {
+        font-size: 1.8rem;
+        line-height: 1;
+        background: #801719;
+        border: unset;
+        color: #fff;
+    }
+
     .home-block--slide-products .splide__slide {
         padding: unset;
-        width: 40vw!important;
+        width: 32vw!important;
     }
 
     .product-block .product-block__info {
@@ -235,5 +255,78 @@ figure.banner-effect-1:before {
         width: 100%;
         color: #000!important;
         font-size: 0.75rem
+    }
+
+    .product-block .product-block__info p {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        line-height: normal;
+        width: 100%;
+        margin: unset;
+        font-size: 0.7rem
+    }
+
+    .product-block:not(.product-block--large) .product-block__info .price-wrapper * {
+        font-size: 0.65rem!important;
+    }
+
+    .product-block:not(.product-block--large) .product-block__info .price-wrapper small {
+        text-decoration: line-through;
+        margin: unset;
+    }
+
+    .product-block:not(.product-block--large) .product-block__info .price-wrapper small:before {
+        display: none;
+    }
+
+    .product-block .btn--add-to-cart {
+        position: unset;
+        transform: unset!important;
+        padding: 2px 0!important;
+        font-size: 0.8rem!important;
+        ; color: #fff;
+        background: #000;
+        border-radius: unset;
+        width: 100%
+    }
+
+    .product-block .btn--add-to-cart.disabled {
+        background: #9c9c9c!important;
+        color: #000!important;
+    }
+
+    .product-block .btn--floated .s-button-element {
+        line-height: unset;
+        color: inherit;
+        width: 100%;
+        height: unset;
+        font-size: unset;
+    }
+
+    .product-block .s-button-element .s-button-text {
+        margin: 0 0.25rem;
+        display: none
+    }
+
+    .cart .product-block .s-button-element .s-button-text {
+        margin: 0 0.25rem;
+        display: block!important;
+    }
+
+    .product-block salla-add-product-button button::before {
+        content: "أضف للسلة";
+    }
+
+    .product-block .disabled salla-add-product-button button::before {
+        content: "نفذت الكمية";
+    }
+
+    .products-list-container {
+        grid-template-columns: repeat(auto-fit,minmax(100px,1fr)) !important;
+    }
+
+    .home-block--bg {
+        padding: 20px 0;
     }
 }
