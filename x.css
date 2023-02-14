@@ -1,6 +1,5 @@
 /* develope By Package +201002241591  3lwaaa@gmail.com - https://wa.me/201002241591 */
-
- @font-face {
+@font-face {
     font-family: bokra;
     src: url("//alfont.com/wp-content/fonts/new-arabic-fonts/alfont_com_AlFont_com_4_CA.ttf");
 }
@@ -1385,8 +1384,6 @@ a.login-link {
     display: block;
 }
 
- 
-
 .salla-theme_6 footer .footer-sub .fs-cont .fs-payment img {
     width: auto;
     max-width: 73px;
@@ -1752,71 +1749,79 @@ i.sicon-tag {
     content: "" !important;
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(1) > a::before, .main-menu > li:nth-last-child(17) > a::before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(1) > a::before, .main-menu > li:nth-last-child(19) > a::before {
+    content: "\f00f" !important;
+}
+
+.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(2) > a::before, .main-menu > li:nth-last-child(18) > a::before {
+    content: "\eb14" !important;
+}
+
+.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(3) > a::before, .main-menu > li:nth-last-child(17) > a::before {
     content: "" !important;
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(2) > a::before, .main-menu > li:nth-last-child(16) > a::before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(4) > a::before, .main-menu > li:nth-last-child(16) > a::before {
     content: "" !important;
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(3) > a::before, .main-menu > li:nth-last-child(15) > a::before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(5) > a::before, .main-menu > li:nth-last-child(15) > a::before {
     content: "" !important;
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(4) > a::before, .main-menu > li:nth-last-child(14) > a::before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(6) > a::before, .main-menu > li:nth-last-child(14) > a::before {
     content: "" !important;
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(5) > a::before, .main-menu > li:nth-last-child(13) > a::before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(7) > a::before, .main-menu > li:nth-last-child(13) > a::before {
     content: "" !important;
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(6) > a::before, .main-menu > li:nth-last-child(12) > a::before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(8) > a::before, .main-menu > li:nth-last-child(12) > a::before {
     content: "" !important;
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(7) > a::before, .main-menu > li:nth-last-child(11) > a::before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(9) > a::before, .main-menu > li:nth-last-child(11) > a::before {
     content: "" !important;
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(8) > a::before, .main-menu > li:nth-last-child(10) > a::before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(10) > a::before, .main-menu > li:nth-last-child(10) > a::before {
     content: "" !important;
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(9) > a::before, .main-menu > li:nth-last-child(9) > a::before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(11) > a::before, .main-menu > li:nth-last-child(9) > a::before {
     content: "" !important;
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(10) > a::before, .main-menu > li:nth-last-child(8) > a::before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(12) > a::before, .main-menu > li:nth-last-child(8) > a::before {
     content: "" !important;
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(11) > a::before, .main-menu > li:nth-last-child(7) > a::before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(13) > a::before, .main-menu > li:nth-last-child(7) > a::before {
     content: "" !important;
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(12) > a::before, .main-menu > li:nth-last-child(6) > a::before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(14) > a::before, .main-menu > li:nth-last-child(6) > a::before {
     content: "" !important;
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(14) > a::before, .main-menu > li:nth-last-child(5) > a::before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(15) > a::before, .main-menu > li:nth-last-child(5) > a::before {
     content: "" !important;
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(15) > a::before, .main-menu > li:nth-last-child(4) > a::before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(16) > a::before, .main-menu > li:nth-last-child(4) > a::before {
     content: "" !important;
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(16) > a::before, .main-menu > li:nth-last-child(3) > a::before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(17) > a::before, .main-menu > li:nth-last-child(3) > a::before {
     content: "" !important;
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(17) > a::before, .main-menu > li:nth-last-child(2) > a::before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(18) > a::before, .main-menu > li:nth-last-child(2) > a::before {
     content: "" !important;
 }
 
-.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(18) > a::before, .main-menu > li:nth-last-child(1) > a::before {
+.sub-nav .main-menu li.sub-menu-header.categories-holder > ul.store-categories > li:nth-child(19) > a::before, .main-menu > li:nth-last-child(1) > a::before {
     content: "" !important;
 }
 
