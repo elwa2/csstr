@@ -2793,3 +2793,25 @@ body > section:nth-child(n+60) .category-grid > div .category-featured a img, bo
 body > section:nth-child(59).u-light.py-5.text-center,body > section:nth-child(60).u-light.py-5.text-center,body > section:nth-child(62).u-light.py-5.text-center,body > section:nth-child(61).u-light.py-5.text-center,body > section:nth-child(63).u-light.py-5.text-center {
     display: none
 }
+.owl-carousel .owl-item img
+{
+    width: 100%;
+    border: 2px solid white!important;
+    border-radius: 35px !important;
+    box-shadow: 1px 1px 6px 1px #c8c8c8;
+    position: relative;
+    animation: up-down 6s ease infinite;
+}
+@keyframes up-down
+{
+    0%, 100%
+    {
+        top: 0;
+    }
+    50%
+    {
+        top: -25px;
+    }
+}
+
+ 
