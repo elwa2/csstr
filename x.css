@@ -2779,6 +2779,11 @@ body > section:nth-child(n+64) .category-grid > div .category-featured:hover {
 body > section:nth-child(n+64) .category-grid > div .category-featured a img, body > section:nth-of-type(n+55) .category-grid > div .category-featured img.cat-featured-img {
     display: unset;
 }
+@media only screen and (min-width: 850px) {
+
+  body > section:nth-of-type(n+55) .category-grid > div .category-featured img.cat-featured-img {
+    display: contents;
+}}
 
 @media only screen and (max-width: 850px) {
     body > section:nth-child(n+64) .category-grid > div {
